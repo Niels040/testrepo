@@ -1,0 +1,16 @@
+{
+    "system_name": "Demo J6 Local Repo",
+    "organisation": "Niels040",
+    "repository": "testrepo",
+    "target": 6,
+    "type": 2,
+    "base": "https:\/\/github.com\/",
+    "guid": "c6311191-97df-486d-8472-d7e0f38ace97",
+    "addplaceholders": null,
+    "access_repo": 1,
+    "write_branch": "main",
+    "read_branch": "main",
+    "author_email": "nielsfeijen76@gmail.com",
+    "author_name": "Niels040",
+    "username": "nfeijen"
+}
