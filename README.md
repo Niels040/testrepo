@@ -1,68 +1,64 @@
-# JCB! Repositories
+# JCB! Joomla Components
 
-### What Are JCB Repositories?
-JCB Repositories define where Joomla Component Builder (JCB) pushes or pulls content from  
-during INIT, RESET, and PUSH operations.
+### What Are Joomla Components in JCB?
+In Joomla Component Builder (JCB), a Joomla Component is the top-level unit that brings everything together.
 
-They act as the Git configuration layer for managing remote syncing of the following entity types:
-- 🧩 Snippets
-- ⚡ Super Powers
-- 🧬 Field Types
-- 🔧 Joomla Powers
-- 📦 JCB Packages
+It acts as the central container — compiling all attached entities and logic into a complete, versioned, installable Joomla extension.
 
-Each repository configuration defines how and where content is versioned - using GitHub, Gitea, or similar Git platforms.
+A Component includes:
 
----
-### What Do Repositories Do?
-A JCB Repository specifies:
+- Admin Views (core data tables with fields and ACLs)
+- Site Views (frontend output)
+- Custom Admin Views (customized backend interfaces)
+- Modules & Plugins (packaged alongside)
+- Custom Code (injectable and reusable)
+- Files and Folders (media, scripts, assets)
+- MySQL Tweaks & Schema Updates
+- PHP Helper Classes
+- Component Configurations (global parameters)
+- Placeholders & Overrides
+- Dynamic Dashboards (overview screens)
+- Routing Setup (site and admin)
+- Version Definitions (Joomla 3, 4, 5 support)
+- README, Wikis & Docs (optional, for internal reference)
 
-- Which Git platform (e.g., GitHub or Gitea)
-- Which organization/repo to use
-- What branches to read from and write to
-- How authentication should be handled (token, user, URL)
-- Whether to use **Global Config** credentials or **Override** credentials locally
-- Author name/email for Git commits
-
-Each repository becomes a "target" used by JCB to push and pull data between your local builder and remote Git Repo.
-
-Repositories themselves do not contain the data - they provide the link for transferring it.
+Every entity you build in JCB is ultimately assembled into one or more Joomla Components — which are then compiled into installable packages, ready for use or distribution.
 
 ---
-### Access & Authentication
-You can define two authentication modes:
+### What Makes Components So Central?
+Components control the following:
 
-- `Global`: Pull credentials from the global configuration of your JCB Component.
-- `Override`: Manually provide your own Git credentials within this repository setup.
+- Which views, modules, plugins, and helpers are packaged
+- How the database is initialized or migrated (via tweaks)
+- Where assets are placed in the Joomla filesystem
+- Which version of Joomla the output is compatible with
+- How the component is installed, updated, and distributed
+- What language files, readmes, and wikis are bundled
+- Who authored the component and where it lives in Git
 
-This provides fine-grained control for contributors, CI/CD automation, or organization-level collaboration.
-
-Depending on the selected Git type:
-- GitHub requires token, organization, and repo
-- Gitea requires base URL, token, and organization
+> Components are the single point of truth for defining your extension. Once everything else is configured — fields, views, snippets, layouts — you bind them all together through the Component.
 
 ---
-### Repository Targets
-Each Repository can be assigned as the sync target for:
+### Version Control, Syncing & Collaboration
+JCB Components support:
 
-- Snippets
-- Super Powers
-- Field Types
-- Joomla Powers
-- JCB Packages
+- Branch-specific configuration (Joomla 3, 4, 5)
+- Component-level versioning and changelogs
+- Resetting from a central repository
+- Forking to maintain your own variants
+- Pushing updates upstream or into shared team forks
 
-When INIT or RESET is triggered in those respective areas, JCB uses the matching repository settings to:
-- Clone content from the repository into JCB
-- Push updated content from JCB into Git
+They can also be extended via init/reset/update workflows, just like all other JCB entities.
 
-Multiple repositories can exist for different content types or development environments.
+This makes them ideal for distributed teams, client-specific forks, and open-source extension development.
 
-> Repositories define where things go — they are the communication bridge between your structured data in JCB and your remote Git Repositories.
+> A Component in JCB isn't just a bundle of files — it's a fully-defined application package that carries the design, data, logic, and behaviour of your Joomla extension.
 
-### Index of JCB Repositories
+---
+### Index of Joomla Components
 
 
- - **Demo J6 Local Repo** | [Details](src/c6311191-97df-486d-8472-d7e0f38ace97) | [Settings](src/c6311191-97df-486d-8472-d7e0f38ace97/item.json)
+ - **Nieuwe test component** | [Details](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b) | [Settings](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b/item.json) | korte beschrijving
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
