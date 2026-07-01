@@ -5,5 +5,12 @@
         "settings": "src\/joomla_component\/863af33c-3ad3-476d-98d6-689b2a0f6d2b\/item.json",
         "guid": "863af33c-3ad3-476d-98d6-689b2a0f6d2b",
         "desc": "korte beschrijving"
+    },
+    "1c20aec5-bf1a-44e7-9deb-d1c920ca591d": {
+        "name": "Demo J6",
+        "path": "src\/joomla_component\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+        "settings": "src\/joomla_component\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d\/item.json",
+        "guid": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
+        "desc": "Demo Component"
     }
 }
