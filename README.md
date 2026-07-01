@@ -61,6 +61,7 @@ This makes them ideal for distributed teams, client-specific forks, and open-sou
  - **Demo J6** | [Details](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d) | [Settings](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d/item.json) | Demo Component
  - **Nieuwe test component** | [Details](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b) | [Settings](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b/item.json) | korte beschrijving
  - **Test Component** | [Details](src/joomla_component/dfcbc7f7-9635-4aa3-bcd4-6586b4762694) | [Settings](src/joomla_component/dfcbc7f7-9635-4aa3-bcd4-6586b4762694/item.json) | Test Component
+ - **nieuw-component-niels** | [Details](src/joomla_component/13295cf6-f8e7-484c-9ee9-46b23c49d731) | [Settings](src/joomla_component/13295cf6-f8e7-484c-9ee9-46b23c49d731/item.json) | short description
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
