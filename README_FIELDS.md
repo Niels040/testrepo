@@ -109,6 +109,7 @@ This preserves version control while allowing your own field improvements to liv
  - **Line Two (address)** | [Details](src/field/cc0e70fa-bdda-474c-95c1-0ad5f1e9ec3c) | [Settings](src/field/cc0e70fa-bdda-474c-95c1-0ad5f1e9ec3c/item.json)
  - **Longitude (decimal)** | [Details](src/field/09c22738-6c6f-48ca-a24d-d439757e8619) | [Settings](src/field/09c22738-6c6f-48ca-a24d-d439757e8619/item.json)
  - **Look (address-modal)** | [Details](src/field/aaa5761f-3270-43ce-a95b-db1a22f8c88d) | [Settings](src/field/aaa5761f-3270-43ce-a95b-db1a22f8c88d/item.json)
+ - **Look Groups** | [Details](src/field/104f8410-a07e-4cf8-aad5-2b4db7c6864c) | [Settings](src/field/104f8410-a07e-4cf8-aad5-2b4db7c6864c/item.json)
  - **Map** | [Details](src/field/2d0566ab-cfbe-4ca2-8d05-8e2c70eda191) | [Settings](src/field/2d0566ab-cfbe-4ca2-8d05-8e2c70eda191/item.json)
  - **Message Status** | [Details](src/field/0f4fa86e-25a8-4bbf-91a3-7ea9790b4df8) | [Settings](src/field/0f4fa86e-25a8-4bbf-91a3-7ea9790b4df8/item.json)
  - **Messages** | [Details](src/field/c6e1e451-99b8-4e1b-aa19-c48c3513bf4f) | [Settings](src/field/c6e1e451-99b8-4e1b-aa19-c48c3513bf4f/item.json)
