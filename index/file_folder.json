@@ -3,5 +3,60 @@
         "name": "C:\\laragon\\www\\joomla6\\administrator\\components\\com_componentbuilder\\compiler\\default.txt",
         "path": "src\/file_folder\/db3a18a9-31f5-5026-80e9-5ab5e1643b57.txt",
         "guid": "db3a18a9-31f5-5026-80e9-5ab5e1643b57.txt"
+    },
+    "07f18df3-59cc-53ad-950c-bbfc3fbefa93.jpg": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\demo500.jpg",
+        "path": "src\/file_folder\/07f18df3-59cc-53ad-950c-bbfc3fbefa93.jpg",
+        "guid": "07f18df3-59cc-53ad-950c-bbfc3fbefa93.jpg"
+    },
+    "e7eeb558-4a42-5513-9ae5-1b43cffb62bd.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\detail.png",
+        "path": "src\/file_folder\/e7eeb558-4a42-5513-9ae5-1b43cffb62bd.png",
+        "guid": "e7eeb558-4a42-5513-9ae5-1b43cffb62bd.png"
+    },
+    "44f888dd-605c-5da1-a652-8478de66467d.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\file.png",
+        "path": "src\/file_folder\/44f888dd-605c-5da1-a652-8478de66467d.png",
+        "guid": "44f888dd-605c-5da1-a652-8478de66467d.png"
+    },
+    "622d7d22-e235-5346-9897-9be4ddafd039.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\state.png",
+        "path": "src\/file_folder\/622d7d22-e235-5346-9897-9be4ddafd039.png",
+        "guid": "622d7d22-e235-5346-9897-9be4ddafd039.png"
+    },
+    "e5b0caea-5c26-5777-9532-2cea6c9801c0.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\city.png",
+        "path": "src\/file_folder\/e5b0caea-5c26-5777-9532-2cea6c9801c0.png",
+        "guid": "e5b0caea-5c26-5777-9532-2cea6c9801c0.png"
+    },
+    "87cda481-37a1-5277-902b-d8fe4e39724a.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\country.png",
+        "path": "src\/file_folder\/87cda481-37a1-5277-902b-d8fe4e39724a.png",
+        "guid": "87cda481-37a1-5277-902b-d8fe4e39724a.png"
+    },
+    "61eed0b7-eb02-5537-a1db-56a9556aa41e.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\region.png",
+        "path": "src\/file_folder\/61eed0b7-eb02-5537-a1db-56a9556aa41e.png",
+        "guid": "61eed0b7-eb02-5537-a1db-56a9556aa41e.png"
+    },
+    "ab7c2ce0-9786-5e2d-8ee1-5cf17f9bd787.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\subregion.png",
+        "path": "src\/file_folder\/ab7c2ce0-9786-5e2d-8ee1-5cf17f9bd787.png",
+        "guid": "ab7c2ce0-9786-5e2d-8ee1-5cf17f9bd787.png"
+    },
+    "9a0b95ee-02fb-5b87-9ee8-5afb43801e1a.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\address.png",
+        "path": "src\/file_folder\/9a0b95ee-02fb-5b87-9ee8-5afb43801e1a.png",
+        "guid": "9a0b95ee-02fb-5b87-9ee8-5afb43801e1a.png"
+    },
+    "6508bb1d-3132-541b-8a13-622978000250.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\look.png",
+        "path": "src\/file_folder\/6508bb1d-3132-541b-8a13-622978000250.png",
+        "guid": "6508bb1d-3132-541b-8a13-622978000250.png"
+    },
+    "583483f1-908d-54c3-9c38-67d526ecd8f8.png": {
+        "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\look_add.png",
+        "path": "src\/file_folder\/583483f1-908d-54c3-9c38-67d526ecd8f8.png",
+        "guid": "583483f1-908d-54c3-9c38-67d526ecd8f8.png"
     }
 }
