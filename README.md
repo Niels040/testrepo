@@ -58,6 +58,7 @@ This makes them ideal for distributed teams, client-specific forks, and open-sou
 ### Index of Joomla Components
 
 
+ - **Demo J6** | [Details](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d) | [Settings](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d/item.json) | Demo Component
  - **Nieuwe test component** | [Details](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b) | [Settings](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b/item.json) | korte beschrijving
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
