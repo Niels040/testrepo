@@ -19,5 +19,12 @@
         "settings": "src\/joomla_component\/dfcbc7f7-9635-4aa3-bcd4-6586b4762694\/item.json",
         "guid": "dfcbc7f7-9635-4aa3-bcd4-6586b4762694",
         "desc": "Test Component"
+    },
+    "13295cf6-f8e7-484c-9ee9-46b23c49d731": {
+        "name": "nieuw-component-niels",
+        "path": "src\/joomla_component\/13295cf6-f8e7-484c-9ee9-46b23c49d731",
+        "settings": "src\/joomla_component\/13295cf6-f8e7-484c-9ee9-46b23c49d731\/item.json",
+        "guid": "13295cf6-f8e7-484c-9ee9-46b23c49d731",
+        "desc": "short description"
     }
 }
