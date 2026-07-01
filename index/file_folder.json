@@ -58,5 +58,15 @@
         "name": "C:\\laragon\\www\\joomla6\\images\\vdm\\icon\\look_add.png",
         "path": "src\/file_folder\/583483f1-908d-54c3-9c38-67d526ecd8f8.png",
         "guid": "583483f1-908d-54c3-9c38-67d526ecd8f8.png"
+    },
+    "9f163879-9bdf-519e-a513-6955b53e7d14.php": {
+        "name": "C:\\laragon\\www\\joomla6\\administrator\\components\\com_componentbuilder\\custom\\DownloadControllerAdmin.php",
+        "path": "src\/file_folder\/9f163879-9bdf-519e-a513-6955b53e7d14.php",
+        "guid": "9f163879-9bdf-519e-a513-6955b53e7d14.php"
+    },
+    "dccbdacd-ce95-5f5d-983b-14e16eb290f6.php": {
+        "name": "C:\\laragon\\www\\joomla6\\administrator\\components\\com_componentbuilder\\custom\\DownloadControllerSite.php",
+        "path": "src\/file_folder\/dccbdacd-ce95-5f5d-983b-14e16eb290f6.php",
+        "guid": "dccbdacd-ce95-5f5d-983b-14e16eb290f6.php"
     }
 }
