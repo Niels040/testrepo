@@ -1,0 +1,14 @@
+{
+    "2d8677ea-cda3-48d3-828d-da656c52dbe1": {
+        "name": "privacy",
+        "path": "src\/joomla_plugin_group\/2d8677ea-cda3-48d3-828d-da656c52dbe1",
+        "settings": "src\/joomla_plugin_group\/2d8677ea-cda3-48d3-828d-da656c52dbe1\/item.json",
+        "guid": "2d8677ea-cda3-48d3-828d-da656c52dbe1"
+    },
+    "63638841-11b1-45ef-b42b-475d0f1635c1": {
+        "name": "console",
+        "path": "src\/joomla_plugin_group\/63638841-11b1-45ef-b42b-475d0f1635c1",
+        "settings": "src\/joomla_plugin_group\/63638841-11b1-45ef-b42b-475d0f1635c1\/item.json",
+        "guid": "63638841-11b1-45ef-b42b-475d0f1635c1"
+    }
+}
