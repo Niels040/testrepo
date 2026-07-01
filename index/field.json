@@ -544,5 +544,11 @@
         "path": "src\/field\/d95dc35a-7467-4010-8d35-f3dab696a808",
         "settings": "src\/field\/d95dc35a-7467-4010-8d35-f3dab696a808\/item.json",
         "guid": "d95dc35a-7467-4010-8d35-f3dab696a808"
+    },
+    "104f8410-a07e-4cf8-aad5-2b4db7c6864c": {
+        "name": "Look Groups",
+        "path": "src\/field\/104f8410-a07e-4cf8-aad5-2b4db7c6864c",
+        "settings": "src\/field\/104f8410-a07e-4cf8-aad5-2b4db7c6864c\/item.json",
+        "guid": "104f8410-a07e-4cf8-aad5-2b4db7c6864c"
     }
 }
