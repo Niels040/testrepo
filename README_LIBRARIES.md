@@ -61,6 +61,7 @@ This gives you **full control and flexibility** over how your frontend libraries
 ### Index of JCB Libraries
 
 
+ - **DataTable** | [Details](src/library/4c3e3dce-0845-46cb-9e4a-494f75dc7dd8) | [Settings](src/library/4c3e3dce-0845-46cb-9e4a-494f75dc7dd8/item.json)
  - **Uikit v3** | [Details](src/library/5eeee148-cebd-4a92-bc0e-56efea3cffdc) | [Settings](src/library/5eeee148-cebd-4a92-bc0e-56efea3cffdc/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
