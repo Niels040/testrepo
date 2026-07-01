@@ -12,5 +12,12 @@
         "settings": "src\/joomla_component\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d\/item.json",
         "guid": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
         "desc": "Demo Component"
+    },
+    "dfcbc7f7-9635-4aa3-bcd4-6586b4762694": {
+        "name": "Test Component",
+        "path": "src\/joomla_component\/dfcbc7f7-9635-4aa3-bcd4-6586b4762694",
+        "settings": "src\/joomla_component\/dfcbc7f7-9635-4aa3-bcd4-6586b4762694\/item.json",
+        "guid": "dfcbc7f7-9635-4aa3-bcd4-6586b4762694",
+        "desc": "Test Component"
     }
 }
