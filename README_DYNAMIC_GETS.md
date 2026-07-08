@@ -58,6 +58,7 @@ Whether you're building for:
 ### Index of Dynamic Gets
 
 
+ - **Get Portals** | [Details](src/dynamic_get/fef5e465-45e1-48d6-b698-4219666a2382) | [Settings](src/dynamic_get/fef5e465-45e1-48d6-b698-4219666a2382/item.json)
  - **Item Import Queue** | [Details](src/dynamic_get/0ac7277b-8f9f-4119-b22b-26f8c22e988b) | [Settings](src/dynamic_get/0ac7277b-8f9f-4119-b22b-26f8c22e988b/item.json)
  - **Item Importer** | [Details](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60) | [Settings](src/dynamic_get/ebfab0ae-d368-4d2a-807b-c9d2d0809a60/item.json)
  - **Looking (demo-J6)** | [Details](src/dynamic_get/9e74033f-f49e-486f-9879-779fa3bd2417) | [Settings](src/dynamic_get/9e74033f-f49e-486f-9879-779fa3bd2417/item.json)
