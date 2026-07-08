@@ -4,5 +4,11 @@
         "path": "src\/joomla_component\/children\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
         "settings": "src\/joomla_component\/children\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d\/component-admin-views.json",
         "guid": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d"
+    },
+    "77d905a1-d7ef-4f05-b293-1409900e9390": {
+        "name": "77d905a1-d7ef-4f05-b293-1409900e9390",
+        "path": "src\/joomla_component\/children\/77d905a1-d7ef-4f05-b293-1409900e9390",
+        "settings": "src\/joomla_component\/children\/77d905a1-d7ef-4f05-b293-1409900e9390\/component-admin-views.json",
+        "guid": "77d905a1-d7ef-4f05-b293-1409900e9390"
     }
 }
