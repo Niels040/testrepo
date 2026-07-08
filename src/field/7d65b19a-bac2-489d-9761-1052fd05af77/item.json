@@ -1,0 +1,35 @@
+{
+    "name": "portal_url",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\r\n\ttype=\"text\"\r\n\tname=\"portal_url\"\r\n\tlabel=\"Portal URL\"\r\n\tsize=\"10\"\r\n\tmaxlength=\"50\"\r\n\tcharcounter=\"\"\r\n\tdefault=\"Some text\"\r\n\tdescription=\"Enter some description\"\r\n\tclass=\"text_area\"\r\n\treadonly=\"false\"\r\n\tdisabled=\"false\"\r\n\trequired=\"false\"\r\n\tfilter=\"STRING\"\r\n\tvalidate=\"\"\r\n\tfield=\"\"\r\n\tmessage=\"Error! Please add some text here.\"\r\n\thint=\"Your Name Here\"\r\n\tautocomplete=\"on\"\r\n\tshowon=\"\"\r\n\tonchange=\"\"\r\n\/>",
+    "datalenght": "255",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "7d65b19a-bac2-489d-9761-1052fd05af77",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
