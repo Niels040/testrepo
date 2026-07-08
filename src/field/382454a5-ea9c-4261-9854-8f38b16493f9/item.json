@@ -1,0 +1,35 @@
+{
+    "name": "image",
+    "fieldtype": "69957007-e3d4-4976-a32b-611d02dbad71",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\r\n\ttype=\"media\"\r\n\tname=\"media\"\r\n\tlabel=\"Media\"\r\n\tdescription=\"\"\r\n\tdirectory=\"\"\r\n\tpreview=\"false\"\r\n\tpreview_width=\"\"\r\n\tpreview_height=\"\"\r\n\ttypes=\"\"\r\n\tshowon=\"\"\r\n\tonchange=\"\"\r\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "382454a5-ea9c-4261-9854-8f38b16493f9",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "69957007-e3d4-4976-a32b-611d02dbad71",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
