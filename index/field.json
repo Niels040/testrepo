@@ -550,5 +550,35 @@
         "path": "src\/field\/104f8410-a07e-4cf8-aad5-2b4db7c6864c",
         "settings": "src\/field\/104f8410-a07e-4cf8-aad5-2b4db7c6864c\/item.json",
         "guid": "104f8410-a07e-4cf8-aad5-2b4db7c6864c"
+    },
+    "19e27250-519b-4a46-bf94-a3439e683b37": {
+        "name": "title",
+        "path": "src\/field\/19e27250-519b-4a46-bf94-a3439e683b37",
+        "settings": "src\/field\/19e27250-519b-4a46-bf94-a3439e683b37\/item.json",
+        "guid": "19e27250-519b-4a46-bf94-a3439e683b37"
+    },
+    "382454a5-ea9c-4261-9854-8f38b16493f9": {
+        "name": "image",
+        "path": "src\/field\/382454a5-ea9c-4261-9854-8f38b16493f9",
+        "settings": "src\/field\/382454a5-ea9c-4261-9854-8f38b16493f9\/item.json",
+        "guid": "382454a5-ea9c-4261-9854-8f38b16493f9"
+    },
+    "7d65b19a-bac2-489d-9761-1052fd05af77": {
+        "name": "portal_url",
+        "path": "src\/field\/7d65b19a-bac2-489d-9761-1052fd05af77",
+        "settings": "src\/field\/7d65b19a-bac2-489d-9761-1052fd05af77\/item.json",
+        "guid": "7d65b19a-bac2-489d-9761-1052fd05af77"
+    },
+    "a3bb0c9c-66ac-426b-913c-05af146e11ea": {
+        "name": "admin_url",
+        "path": "src\/field\/a3bb0c9c-66ac-426b-913c-05af146e11ea",
+        "settings": "src\/field\/a3bb0c9c-66ac-426b-913c-05af146e11ea\/item.json",
+        "guid": "a3bb0c9c-66ac-426b-913c-05af146e11ea"
+    },
+    "b329e533-cc8a-451e-ab24-9d0423a1701b": {
+        "name": "extra_info",
+        "path": "src\/field\/b329e533-cc8a-451e-ab24-9d0423a1701b",
+        "settings": "src\/field\/b329e533-cc8a-451e-ab24-9d0423a1701b\/item.json",
+        "guid": "b329e533-cc8a-451e-ab24-9d0423a1701b"
     }
 }
