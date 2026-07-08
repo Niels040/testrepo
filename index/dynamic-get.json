@@ -22,5 +22,11 @@
         "path": "src\/dynamic_get\/ebfab0ae-d368-4d2a-807b-c9d2d0809a60",
         "settings": "src\/dynamic_get\/ebfab0ae-d368-4d2a-807b-c9d2d0809a60\/item.json",
         "guid": "ebfab0ae-d368-4d2a-807b-c9d2d0809a60"
+    },
+    "fef5e465-45e1-48d6-b698-4219666a2382": {
+        "name": "Get Portals",
+        "path": "src\/dynamic_get\/fef5e465-45e1-48d6-b698-4219666a2382",
+        "settings": "src\/dynamic_get\/fef5e465-45e1-48d6-b698-4219666a2382\/item.json",
+        "guid": "fef5e465-45e1-48d6-b698-4219666a2382"
     }
 }
