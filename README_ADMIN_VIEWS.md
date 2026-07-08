@@ -55,6 +55,7 @@ This ensures maintainability while still allowing total customization per projec
  - **Importer Message Logs** | [Details](src/admin_view/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64) | [Settings](src/admin_view/ab2bbdfc-c0a0-4ffc-9556-67d5af8bec64/item.json) | Importer Message Logs
  - **Item Import** | [Details](src/admin_view/a9f19a16-fadb-44ea-a9b6-41130aad05ec) | [Settings](src/admin_view/a9f19a16-fadb-44ea-a9b6-41130aad05ec/item.json) | Item Import Queue
  - **Look (demo-J6)** | [Details](src/admin_view/93a34bf3-aa25-4a14-8496-ae7d0340e0b9) | [Settings](src/admin_view/93a34bf3-aa25-4a14-8496-ae7d0340e0b9/item.json) | The main demo view
+ - **Portal** | [Details](src/admin_view/71cfdcc8-d17a-4724-8169-6996c99e788b) | [Settings](src/admin_view/71cfdcc8-d17a-4724-8169-6996c99e788b/item.json) | list of portals
  - **Regions** | [Details](src/admin_view/9eefa86b-6294-4512-8d62-979abf16c00d) | [Settings](src/admin_view/9eefa86b-6294-4512-8d62-979abf16c00d/item.json) | Regions
  - **States** | [Details](src/admin_view/6c6345a1-e3e4-4840-8918-831034e95b19) | [Settings](src/admin_view/6c6345a1-e3e4-4840-8918-831034e95b19/item.json) | States
  - **Sub-Regions** | [Details](src/admin_view/2e451812-45af-4015-aa0c-f5912702c9af) | [Settings](src/admin_view/2e451812-45af-4015-aa0c-f5912702c9af/item.json) | Subregions
