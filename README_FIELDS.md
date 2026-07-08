@@ -149,6 +149,11 @@ This preserves version control while allowing your own field improvements to liv
  - **Users** | [Details](src/field/c61285fd-2e35-4605-869f-66d2fbd70004) | [Settings](src/field/c61285fd-2e35-4605-869f-66d2fbd70004/item.json)
  - **Website (no required)** | [Details](src/field/6c3a6983-d1bf-4e5e-9e99-deea00b0cefd) | [Settings](src/field/6c3a6983-d1bf-4e5e-9e99-deea00b0cefd/item.json)
  - **WikiDataId** | [Details](src/field/af59b3ac-6a00-42c0-bbe2-edf90dec6081) | [Settings](src/field/af59b3ac-6a00-42c0-bbe2-edf90dec6081/item.json)
+ - **admin_url** | [Details](src/field/a3bb0c9c-66ac-426b-913c-05af146e11ea) | [Settings](src/field/a3bb0c9c-66ac-426b-913c-05af146e11ea/item.json)
+ - **extra_info** | [Details](src/field/b329e533-cc8a-451e-ab24-9d0423a1701b) | [Settings](src/field/b329e533-cc8a-451e-ab24-9d0423a1701b/item.json)
+ - **image** | [Details](src/field/382454a5-ea9c-4261-9854-8f38b16493f9) | [Settings](src/field/382454a5-ea9c-4261-9854-8f38b16493f9/item.json)
+ - **portal_url** | [Details](src/field/7d65b19a-bac2-489d-9761-1052fd05af77) | [Settings](src/field/7d65b19a-bac2-489d-9761-1052fd05af77/item.json)
+ - **title** | [Details](src/field/19e27250-519b-4a46-bf94-a3439e683b37) | [Settings](src/field/19e27250-519b-4a46-bf94-a3439e683b37/item.json)
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
