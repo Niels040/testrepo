@@ -1,0 +1,35 @@
+{
+    "name": "extra_info",
+    "fieldtype": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+    "datatype": "TEXT",
+    "indexes": "",
+    "null_switch": "NULL",
+    "store": 0,
+    "on_get_model_field": null,
+    "on_save_model_field": null,
+    "initiator_on_get_model": "",
+    "xml": "<field\r\n\ttype=\"textarea\"\r\n\tname=\"extra_info\"\r\n\tlabel=\"Extra Info\"\r\n\trows=\"10\"\r\n\tcols=\"5\"\r\n\tdefault=\".....\"\r\n\tdescription=\"Text Area\"\r\n\tmessage=\"\"\r\n\tclass=\"text_area\"\r\n\tfilter=\"raw\"\r\n\thint=\"\"\r\n\trequired=\"false\"\r\n\tvalidate=\"\"\r\n\treadonly=\"false\"\r\n\tdisabled=\"false\"\r\n\tshowon=\"\"\r\n\tonchange=\"\"\r\n\/>",
+    "datalenght": "",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "b329e533-cc8a-451e-ab24-9d0423a1701b",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "76fe1250-6fa7-49e5-a0ee-f06d8d4c9f99",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
