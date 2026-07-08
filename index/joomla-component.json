@@ -26,5 +26,12 @@
         "settings": "src\/joomla_component\/13295cf6-f8e7-484c-9ee9-46b23c49d731\/item.json",
         "guid": "13295cf6-f8e7-484c-9ee9-46b23c49d731",
         "desc": "short description"
+    },
+    "77d905a1-d7ef-4f05-b293-1409900e9390": {
+        "name": "BraGIS Portals",
+        "path": "src\/joomla_component\/77d905a1-d7ef-4f05-b293-1409900e9390",
+        "settings": "src\/joomla_component\/77d905a1-d7ef-4f05-b293-1409900e9390\/item.json",
+        "guid": "77d905a1-d7ef-4f05-b293-1409900e9390",
+        "desc": "Portaal voor portalen"
     }
 }
