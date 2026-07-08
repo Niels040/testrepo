@@ -103,5 +103,12 @@
         "settings": "src\/admin_view\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9\/item.json",
         "guid": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
         "desc": "The main demo view"
+    },
+    "71cfdcc8-d17a-4724-8169-6996c99e788b": {
+        "name": "Portal",
+        "path": "src\/admin_view\/71cfdcc8-d17a-4724-8169-6996c99e788b",
+        "settings": "src\/admin_view\/71cfdcc8-d17a-4724-8169-6996c99e788b\/item.json",
+        "guid": "71cfdcc8-d17a-4724-8169-6996c99e788b",
+        "desc": "list of portals"
     }
 }
