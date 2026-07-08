@@ -12,5 +12,12 @@
         "path": "src\/site_view\/b302faa4-7476-4b1f-bcce-0b9b3f2a8be1",
         "settings": "src\/site_view\/b302faa4-7476-4b1f-bcce-0b9b3f2a8be1\/item.json",
         "guid": "b302faa4-7476-4b1f-bcce-0b9b3f2a8be1"
+    },
+    "ab4a719a-6afe-4338-b78b-2edfb0730f8e": {
+        "name": "Portals",
+        "desc": "portals page",
+        "path": "src\/site_view\/ab4a719a-6afe-4338-b78b-2edfb0730f8e",
+        "settings": "src\/site_view\/ab4a719a-6afe-4338-b78b-2edfb0730f8e\/item.json",
+        "guid": "ab4a719a-6afe-4338-b78b-2edfb0730f8e"
     }
 }
