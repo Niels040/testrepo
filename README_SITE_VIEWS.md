@@ -57,6 +57,7 @@ This ensures consistent updates while preserving your customizations and logic.
 
  - **Looking** | [Details](src/site_view/b302faa4-7476-4b1f-bcce-0b9b3f2a8be1) | [Settings](src/site_view/b302faa4-7476-4b1f-bcce-0b9b3f2a8be1/item.json) | Looking at a look
  - **Looks** | [Details](src/site_view/6a2d74e5-5bc6-497e-a075-70f084174eec) | [Settings](src/site_view/6a2d74e5-5bc6-497e-a075-70f084174eec/item.json) | The List of all published looks
+ - **Portals** | [Details](src/site_view/ab4a719a-6afe-4338-b78b-2edfb0730f8e) | [Settings](src/site_view/ab4a719a-6afe-4338-b78b-2edfb0730f8e/item.json) | portals page
 
 ### All used in [Joomla Component Builder](https://www.joomlacomponentbuilder.com) - [Source](https://git.vdm.dev/joomla/Component-Builder) - [Mirror](https://github.com/vdm-io/Joomla-Component-Builder) - [Download](https://git.vdm.dev/joomla/pkg-component-builder/releases)
 
