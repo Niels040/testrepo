@@ -88,5 +88,11 @@
         "path": "src\/admin_view\/children\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9",
         "settings": "src\/admin_view\/children\/93a34bf3-aa25-4a14-8496-ae7d0340e0b9\/admin-fields.json",
         "guid": "93a34bf3-aa25-4a14-8496-ae7d0340e0b9"
+    },
+    "71cfdcc8-d17a-4724-8169-6996c99e788b": {
+        "name": "71cfdcc8-d17a-4724-8169-6996c99e788b",
+        "path": "src\/admin_view\/children\/71cfdcc8-d17a-4724-8169-6996c99e788b",
+        "settings": "src\/admin_view\/children\/71cfdcc8-d17a-4724-8169-6996c99e788b\/admin-fields.json",
+        "guid": "71cfdcc8-d17a-4724-8169-6996c99e788b"
     }
 }
