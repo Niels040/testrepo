@@ -1,0 +1,35 @@
+{
+    "name": "Beeld_sectieobjectids",
+    "fieldtype": "201327fe-3067-4316-a155-3fe2a52e05c0",
+    "datatype": "VARCHAR",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"text\"\n\tname=\"sectieobjectids\"\n\tlabel=\"Sectie ronde Object ID's\"\n\tsize=\"\"\n\tmaxlength=\"10000\"\n\tdefault=\"\"\n\tdescription=\"Sectie ronde Object ID's\"\n\tclass=\"text_area\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\trequired=\"false\"\n\tfilter=\"STRING\"\n\tvalidate=\"\"\n\tfield=\"\"\n\tmessage=\"Fout! Voer Object ID's  in.\"\n\thint=\"Sectie ronde Object ID's\"\n\tautocomplete=\"off\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "Other",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "10000",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "1a9c8616-f97d-4feb-bf85-27014dc92182",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "201327fe-3067-4316-a155-3fe2a52e05c0",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
