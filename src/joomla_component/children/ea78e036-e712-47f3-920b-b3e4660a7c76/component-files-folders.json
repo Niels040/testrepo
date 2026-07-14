@@ -1,0 +1,39 @@
+{
+    "joomla_component": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+    "addfoldersfullpath": null,
+    "addfilesfullpath": null,
+    "addfolders": {
+        "addfolders0": {
+            "folder": "wideimage",
+            "path": "\/admin\/helpers\/"
+        }
+    },
+    "addfiles": {
+        "addfiles0": {
+            "file": "A4.print.css",
+            "path": "\/media\/css",
+            "notnew": "1"
+        },
+        "addfiles1": {
+            "file": "marked.js",
+            "path": "\/media\/js"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "56f0d607-0286-5be7-8d21-f83b53676f79.js",
+            "pointer": "56f0d607-0286-5be7-8d21-f83b53676f79--js",
+            "value": "marked.js",
+            "entity": "file",
+            "table": "file_system",
+            "target": "custom"
+        }
+    ]
+}
