@@ -1,0 +1,36 @@
+{
+    "admin_view": "eaa6075c-024a-4840-9c19-b84d8786bd8d",
+    "addfields": {
+        "0": {
+            "field": "7182c796-0d19-4e3c-abeb-5ea19257a269",
+            "list": "1",
+            "order_list": "1",
+            "title": "1",
+            "sort": "1",
+            "search": "1",
+            "link": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "0",
+            "permission": [
+                "1"
+            ]
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "eaa6075c-024a-4840-9c19-b84d8786bd8d",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "7182c796-0d19-4e3c-abeb-5ea19257a269",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
