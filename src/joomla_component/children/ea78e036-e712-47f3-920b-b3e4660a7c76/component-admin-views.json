@@ -1,0 +1,182 @@
+{
+    "joomla_component": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+    "addadmin_views": {
+        "addadmin_views0": {
+            "adminview": "eaa6075c-024a-4840-9c19-b84d8786bd8d",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "0"
+        },
+        "addadmin_views1": {
+            "adminview": "9f4e1461-fab2-481e-be56-756b35ec0005",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "1"
+        },
+        "addadmin_views2": {
+            "adminview": "b7ee75d6-80e7-4683-abdd-530f9168d738",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "2"
+        },
+        "addadmin_views3": {
+            "adminview": "404e4111-7cbd-477e-b666-e88372e2f309",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "3"
+        },
+        "addadmin_views4": {
+            "adminview": "3cac440a-6909-4324-bca5-f1a059f53d6f",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "4"
+        },
+        "addadmin_views5": {
+            "adminview": "929c1fac-908f-4802-90be-83940af90799",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "5"
+        },
+        "addadmin_views6": {
+            "adminview": "56072a49-b97b-4bb8-9618-718e5f89c676",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "6"
+        },
+        "addadmin_views7": {
+            "adminview": "b06be3fd-2068-4df1-870d-28e9f149ddd2",
+            "icomoon": "joomla",
+            "mainmenu": "1",
+            "dashboard_add": "1",
+            "dashboard_list": "1",
+            "submenu": "1",
+            "checkin": "1",
+            "history": "1",
+            "access": "1",
+            "port": "1",
+            "edit_create_site_view": "",
+            "order": "7"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "eaa6075c-024a-4840-9c19-b84d8786bd8d",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "9f4e1461-fab2-481e-be56-756b35ec0005",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b7ee75d6-80e7-4683-abdd-530f9168d738",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "404e4111-7cbd-477e-b666-e88372e2f309",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "3cac440a-6909-4324-bca5-f1a059f53d6f",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "929c1fac-908f-4802-90be-83940af90799",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "56072a49-b97b-4bb8-9618-718e5f89c676",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b06be3fd-2068-4df1-870d-28e9f149ddd2",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        }
+    ]
+}
