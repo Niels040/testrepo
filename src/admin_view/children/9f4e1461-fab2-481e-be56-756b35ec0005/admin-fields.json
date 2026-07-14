@@ -1,0 +1,75 @@
+{
+    "admin_view": "9f4e1461-fab2-481e-be56-756b35ec0005",
+    "addfields": {
+        "0": {
+            "field": "681b2198-2565-4d66-b25a-618f064456ff",
+            "list": "1",
+            "order_list": "1",
+            "title": "1",
+            "sort": "1",
+            "search": "1",
+            "link": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "0",
+            "permission": [
+                "1"
+            ]
+        },
+        "1": {
+            "field": "d6fecb30-26a1-4820-b203-6f896df2e23e",
+            "list": "1",
+            "order_list": "2",
+            "sort": "1",
+            "search": "1",
+            "filter": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "1",
+            "permission": [
+                "1"
+            ]
+        },
+        "2": {
+            "field": "b97fcc97-0cf9-4cb7-a89e-3c8f89ecff0b",
+            "list": "1",
+            "order_list": "3",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "2",
+            "permission": [
+                "1"
+            ]
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "9f4e1461-fab2-481e-be56-756b35ec0005",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "681b2198-2565-4d66-b25a-618f064456ff",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "d6fecb30-26a1-4820-b203-6f896df2e23e",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b97fcc97-0cf9-4cb7-a89e-3c8f89ecff0b",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
