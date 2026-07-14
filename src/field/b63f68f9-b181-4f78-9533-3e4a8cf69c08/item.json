@@ -1,0 +1,35 @@
+{
+    "name": "Project_type",
+    "fieldtype": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"list\"\n\tname=\"type\"\n\tlabel=\"Functie type\"\n\tdescription=\"\"\n\tmessage=\"\"\n\tclass=\"list_class\"\n\tmultiple=\"false\"\n\tfilter=\"\"\n\trequired=\"true\"\n\tvalidate=\"\"\n\toption=\"1|BEA, 2|VTA, 3|Weginspectie 1, 4|Weginspectie 2, 5|NEN, 6|Beeldkwaliteit, 7|Deelopdrachten, 8|Kaarten,10|DI Inspectie, 20| Beheerplanning, 21|IBOR, 22|SLA ECO, 23|Taken,30|WDD Inspectie, 31|Naamborden, 32|Maaibestek, 40|VAK 1, 41|VAK 2, 50| Ecologie, 60| Veldinspectie,70|NEN, 80|Ploegam Project, 90|Berkel project, 91|AGRO, 100|Hooby, 110|BraGISform, 120|Omgevingsregister, 130|VTA BVC\"\n\tuseglobal=\"\"\n\tdefault=\"0\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "7",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "b63f68f9-b181-4f78-9533-3e4a8cf69c08",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "a51dfc06-1b9b-4d0a-86ba-f705bcd40d4d",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
