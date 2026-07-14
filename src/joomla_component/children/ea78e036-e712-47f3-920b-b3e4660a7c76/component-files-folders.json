@@ -28,9 +28,9 @@
             "direction": "out"
         },
         {
-            "key": "56f0d607-0286-5be7-8d21-f83b53676f79.js",
-            "pointer": "56f0d607-0286-5be7-8d21-f83b53676f79--js",
-            "value": "marked.js",
+            "key": "820be604-3ac5-5b45-a8d3-b71ea319f372.js",
+            "pointer": "820be604-3ac5-5b45-a8d3-b71ea319f372--js",
+            "value": "C:\\laragon\\www\\j6\\administrator\\components\\com_componentbuilder\\custom\\marked.js",
             "entity": "file",
             "table": "file_system",
             "target": "custom"
