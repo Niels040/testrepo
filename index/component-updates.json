@@ -4,5 +4,17 @@
         "path": "src\/joomla_component\/children\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d",
         "settings": "src\/joomla_component\/children\/1c20aec5-bf1a-44e7-9deb-d1c920ca591d\/component-updates.json",
         "guid": "1c20aec5-bf1a-44e7-9deb-d1c920ca591d"
+    },
+    "4128c30d-ff3a-47dd-b520-712987c6b687": {
+        "name": "4128c30d-ff3a-47dd-b520-712987c6b687",
+        "path": "src\/joomla_component\/children\/4128c30d-ff3a-47dd-b520-712987c6b687",
+        "settings": "src\/joomla_component\/children\/4128c30d-ff3a-47dd-b520-712987c6b687\/component-updates.json",
+        "guid": "4128c30d-ff3a-47dd-b520-712987c6b687"
+    },
+    "ea78e036-e712-47f3-920b-b3e4660a7c76": {
+        "name": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+        "path": "src\/joomla_component\/children\/ea78e036-e712-47f3-920b-b3e4660a7c76",
+        "settings": "src\/joomla_component\/children\/ea78e036-e712-47f3-920b-b3e4660a7c76\/component-updates.json",
+        "guid": "ea78e036-e712-47f3-920b-b3e4660a7c76"
     }
 }
