@@ -313,5 +313,10 @@
         "name": "C:\\laragon\\www\\j6\\images\\email+.png",
         "path": "src\/file_folder\/6f73524e-440a-5cdd-82f4-cc3a0e15a862.png",
         "guid": "6f73524e-440a-5cdd-82f4-cc3a0e15a862.png"
+    },
+    "820be604-3ac5-5b45-a8d3-b71ea319f372.js": {
+        "name": "C:\\laragon\\www\\j6\\administrator\\components\\com_componentbuilder\\custom\\marked.js",
+        "path": "src\/file_folder\/820be604-3ac5-5b45-a8d3-b71ea319f372.js",
+        "guid": "820be604-3ac5-5b45-a8d3-b71ea319f372.js"
     }
 }
