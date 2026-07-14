@@ -580,5 +580,437 @@
         "path": "src\/field\/b329e533-cc8a-451e-ab24-9d0423a1701b",
         "settings": "src\/field\/b329e533-cc8a-451e-ab24-9d0423a1701b\/item.json",
         "guid": "b329e533-cc8a-451e-ab24-9d0423a1701b"
+    },
+    "e450a83a-0ad6-4d36-8084-1f2cf418720b": {
+        "name": "Project_projectindex",
+        "path": "src\/field\/e450a83a-0ad6-4d36-8084-1f2cf418720b",
+        "settings": "src\/field\/e450a83a-0ad6-4d36-8084-1f2cf418720b\/item.json",
+        "guid": "e450a83a-0ad6-4d36-8084-1f2cf418720b"
+    },
+    "3007f7fc-c0e7-49ff-8844-a89b2f743a2d": {
+        "name": "Project_user",
+        "path": "src\/field\/3007f7fc-c0e7-49ff-8844-a89b2f743a2d",
+        "settings": "src\/field\/3007f7fc-c0e7-49ff-8844-a89b2f743a2d\/item.json",
+        "guid": "3007f7fc-c0e7-49ff-8844-a89b2f743a2d"
+    },
+    "d6b4ebbf-23d5-479e-a7ef-2722606e057c": {
+        "name": "Project_projectnummer",
+        "path": "src\/field\/d6b4ebbf-23d5-479e-a7ef-2722606e057c",
+        "settings": "src\/field\/d6b4ebbf-23d5-479e-a7ef-2722606e057c\/item.json",
+        "guid": "d6b4ebbf-23d5-479e-a7ef-2722606e057c"
+    },
+    "db614bb3-9a0e-4267-8dc3-40d515062cdf": {
+        "name": "Project_projecttitel",
+        "path": "src\/field\/db614bb3-9a0e-4267-8dc3-40d515062cdf",
+        "settings": "src\/field\/db614bb3-9a0e-4267-8dc3-40d515062cdf\/item.json",
+        "guid": "db614bb3-9a0e-4267-8dc3-40d515062cdf"
+    },
+    "90e1d091-1824-401f-a58c-237aad9c5e27": {
+        "name": "Project_kaarten",
+        "path": "src\/field\/90e1d091-1824-401f-a58c-237aad9c5e27",
+        "settings": "src\/field\/90e1d091-1824-401f-a58c-237aad9c5e27\/item.json",
+        "guid": "90e1d091-1824-401f-a58c-237aad9c5e27"
+    },
+    "12b7636e-2e1c-472b-be90-ee7cedead481": {
+        "name": "Project_BEA",
+        "path": "src\/field\/12b7636e-2e1c-472b-be90-ee7cedead481",
+        "settings": "src\/field\/12b7636e-2e1c-472b-be90-ee7cedead481\/item.json",
+        "guid": "12b7636e-2e1c-472b-be90-ee7cedead481"
+    },
+    "9dd49ab3-2253-4b1c-9d71-a836425cd80f": {
+        "name": "Project_actief",
+        "path": "src\/field\/9dd49ab3-2253-4b1c-9d71-a836425cd80f",
+        "settings": "src\/field\/9dd49ab3-2253-4b1c-9d71-a836425cd80f\/item.json",
+        "guid": "9dd49ab3-2253-4b1c-9d71-a836425cd80f"
+    },
+    "8693f6d6-a126-4836-937d-335bfffcdc42": {
+        "name": "Project_VTA",
+        "path": "src\/field\/8693f6d6-a126-4836-937d-335bfffcdc42",
+        "settings": "src\/field\/8693f6d6-a126-4836-937d-335bfffcdc42\/item.json",
+        "guid": "8693f6d6-a126-4836-937d-335bfffcdc42"
+    },
+    "8547f12f-0b47-43a8-96fd-fa0b239bd27b": {
+        "name": "Project_weginspectie Rijt",
+        "path": "src\/field\/8547f12f-0b47-43a8-96fd-fa0b239bd27b",
+        "settings": "src\/field\/8547f12f-0b47-43a8-96fd-fa0b239bd27b\/item.json",
+        "guid": "8547f12f-0b47-43a8-96fd-fa0b239bd27b"
+    },
+    "53984118-8d83-4fb5-bb47-4ac89efdd119": {
+        "name": "Project_weginspectie Oostzaan",
+        "path": "src\/field\/53984118-8d83-4fb5-bb47-4ac89efdd119",
+        "settings": "src\/field\/53984118-8d83-4fb5-bb47-4ac89efdd119\/item.json",
+        "guid": "53984118-8d83-4fb5-bb47-4ac89efdd119"
+    },
+    "d2b319e4-1e3e-407d-8bf5-e8004bcae3ac": {
+        "name": "Project_NEN",
+        "path": "src\/field\/d2b319e4-1e3e-407d-8bf5-e8004bcae3ac",
+        "settings": "src\/field\/d2b319e4-1e3e-407d-8bf5-e8004bcae3ac\/item.json",
+        "guid": "d2b319e4-1e3e-407d-8bf5-e8004bcae3ac"
+    },
+    "9a74e6e7-7a02-481a-bf0d-6119e6a17a9c": {
+        "name": "Project_Beeldkwaliteit",
+        "path": "src\/field\/9a74e6e7-7a02-481a-bf0d-6119e6a17a9c",
+        "settings": "src\/field\/9a74e6e7-7a02-481a-bf0d-6119e6a17a9c\/item.json",
+        "guid": "9a74e6e7-7a02-481a-bf0d-6119e6a17a9c"
+    },
+    "a061daa8-a57d-489b-af8d-b16f5a27f46b": {
+        "name": "Project_DI Inspectie",
+        "path": "src\/field\/a061daa8-a57d-489b-af8d-b16f5a27f46b",
+        "settings": "src\/field\/a061daa8-a57d-489b-af8d-b16f5a27f46b\/item.json",
+        "guid": "a061daa8-a57d-489b-af8d-b16f5a27f46b"
+    },
+    "d069fa90-3fc8-4117-8c9f-1eff100167b8": {
+        "name": "Project_Beheerplanning",
+        "path": "src\/field\/d069fa90-3fc8-4117-8c9f-1eff100167b8",
+        "settings": "src\/field\/d069fa90-3fc8-4117-8c9f-1eff100167b8\/item.json",
+        "guid": "d069fa90-3fc8-4117-8c9f-1eff100167b8"
+    },
+    "ba681ae9-cf1d-4a95-a972-dd2c53f755fe": {
+        "name": "Project_IBOR",
+        "path": "src\/field\/ba681ae9-cf1d-4a95-a972-dd2c53f755fe",
+        "settings": "src\/field\/ba681ae9-cf1d-4a95-a972-dd2c53f755fe\/item.json",
+        "guid": "ba681ae9-cf1d-4a95-a972-dd2c53f755fe"
+    },
+    "d153655c-d50f-4151-9ff6-564dd7829a0b": {
+        "name": "Project_SLA ECO",
+        "path": "src\/field\/d153655c-d50f-4151-9ff6-564dd7829a0b",
+        "settings": "src\/field\/d153655c-d50f-4151-9ff6-564dd7829a0b\/item.json",
+        "guid": "d153655c-d50f-4151-9ff6-564dd7829a0b"
+    },
+    "4cc58d16-c92a-40fb-b613-f4854dd13cff": {
+        "name": "Project_Taken",
+        "path": "src\/field\/4cc58d16-c92a-40fb-b613-f4854dd13cff",
+        "settings": "src\/field\/4cc58d16-c92a-40fb-b613-f4854dd13cff\/item.json",
+        "guid": "4cc58d16-c92a-40fb-b613-f4854dd13cff"
+    },
+    "c9baeaee-2f1b-4cca-af6f-271e559dbbb2": {
+        "name": "Project_WDD Inspectie",
+        "path": "src\/field\/c9baeaee-2f1b-4cca-af6f-271e559dbbb2",
+        "settings": "src\/field\/c9baeaee-2f1b-4cca-af6f-271e559dbbb2\/item.json",
+        "guid": "c9baeaee-2f1b-4cca-af6f-271e559dbbb2"
+    },
+    "54422129-3236-4d7a-b2f8-eef43b910155": {
+        "name": "Project_Naamborden",
+        "path": "src\/field\/54422129-3236-4d7a-b2f8-eef43b910155",
+        "settings": "src\/field\/54422129-3236-4d7a-b2f8-eef43b910155\/item.json",
+        "guid": "54422129-3236-4d7a-b2f8-eef43b910155"
+    },
+    "5f77f5a4-eb34-4c63-842b-d3c295965664": {
+        "name": "Project_Maaibestek",
+        "path": "src\/field\/5f77f5a4-eb34-4c63-842b-d3c295965664",
+        "settings": "src\/field\/5f77f5a4-eb34-4c63-842b-d3c295965664\/item.json",
+        "guid": "5f77f5a4-eb34-4c63-842b-d3c295965664"
+    },
+    "2c096249-869a-4065-bee8-8d31e4c03fcd": {
+        "name": "Project_VAK1",
+        "path": "src\/field\/2c096249-869a-4065-bee8-8d31e4c03fcd",
+        "settings": "src\/field\/2c096249-869a-4065-bee8-8d31e4c03fcd\/item.json",
+        "guid": "2c096249-869a-4065-bee8-8d31e4c03fcd"
+    },
+    "8d4363c5-3e7e-4f0f-996e-be8f9078a2a8": {
+        "name": "Project_VAK2",
+        "path": "src\/field\/8d4363c5-3e7e-4f0f-996e-be8f9078a2a8",
+        "settings": "src\/field\/8d4363c5-3e7e-4f0f-996e-be8f9078a2a8\/item.json",
+        "guid": "8d4363c5-3e7e-4f0f-996e-be8f9078a2a8"
+    },
+    "f9a194a5-e36e-41de-b3c3-128e01783c73": {
+        "name": "Project_Ecologie",
+        "path": "src\/field\/f9a194a5-e36e-41de-b3c3-128e01783c73",
+        "settings": "src\/field\/f9a194a5-e36e-41de-b3c3-128e01783c73\/item.json",
+        "guid": "f9a194a5-e36e-41de-b3c3-128e01783c73"
+    },
+    "fe91c117-9122-465a-81ed-d7220cae0574": {
+        "name": "Project_Veldinspectie",
+        "path": "src\/field\/fe91c117-9122-465a-81ed-d7220cae0574",
+        "settings": "src\/field\/fe91c117-9122-465a-81ed-d7220cae0574\/item.json",
+        "guid": "fe91c117-9122-465a-81ed-d7220cae0574"
+    },
+    "56cbedba-b5fc-4466-a438-f1c3ee266ba9": {
+        "name": "Project_Ploegam project",
+        "path": "src\/field\/56cbedba-b5fc-4466-a438-f1c3ee266ba9",
+        "settings": "src\/field\/56cbedba-b5fc-4466-a438-f1c3ee266ba9\/item.json",
+        "guid": "56cbedba-b5fc-4466-a438-f1c3ee266ba9"
+    },
+    "a2164250-6d7b-40a6-b4cf-1f66a834e84e": {
+        "name": "Project_Berkel project",
+        "path": "src\/field\/a2164250-6d7b-40a6-b4cf-1f66a834e84e",
+        "settings": "src\/field\/a2164250-6d7b-40a6-b4cf-1f66a834e84e\/item.json",
+        "guid": "a2164250-6d7b-40a6-b4cf-1f66a834e84e"
+    },
+    "8a6cebc5-97c8-407d-9568-c0843ae76ad5": {
+        "name": "Project_AGRO",
+        "path": "src\/field\/8a6cebc5-97c8-407d-9568-c0843ae76ad5",
+        "settings": "src\/field\/8a6cebc5-97c8-407d-9568-c0843ae76ad5\/item.json",
+        "guid": "8a6cebc5-97c8-407d-9568-c0843ae76ad5"
+    },
+    "e479c4ba-a68a-4234-95b3-0195c8d164e7": {
+        "name": "Project_Deelopdrachten",
+        "path": "src\/field\/e479c4ba-a68a-4234-95b3-0195c8d164e7",
+        "settings": "src\/field\/e479c4ba-a68a-4234-95b3-0195c8d164e7\/item.json",
+        "guid": "e479c4ba-a68a-4234-95b3-0195c8d164e7"
+    },
+    "e2353068-9db4-4189-afd5-46a7afd39b15": {
+        "name": "Project_Hooby",
+        "path": "src\/field\/e2353068-9db4-4189-afd5-46a7afd39b15",
+        "settings": "src\/field\/e2353068-9db4-4189-afd5-46a7afd39b15\/item.json",
+        "guid": "e2353068-9db4-4189-afd5-46a7afd39b15"
+    },
+    "bc5e2365-3fcf-4d2b-88ef-0dae64bdac55": {
+        "name": "Project_BraGISform",
+        "path": "src\/field\/bc5e2365-3fcf-4d2b-88ef-0dae64bdac55",
+        "settings": "src\/field\/bc5e2365-3fcf-4d2b-88ef-0dae64bdac55\/item.json",
+        "guid": "bc5e2365-3fcf-4d2b-88ef-0dae64bdac55"
+    },
+    "ced6ac32-e288-4471-bde4-ffd12ddb7cb1": {
+        "name": "Project_Omgevingsregister",
+        "path": "src\/field\/ced6ac32-e288-4471-bde4-ffd12ddb7cb1",
+        "settings": "src\/field\/ced6ac32-e288-4471-bde4-ffd12ddb7cb1\/item.json",
+        "guid": "ced6ac32-e288-4471-bde4-ffd12ddb7cb1"
+    },
+    "8fd9a265-a614-4ce4-894f-89b00950c159": {
+        "name": "Project_VTA_BVC",
+        "path": "src\/field\/8fd9a265-a614-4ce4-894f-89b00950c159",
+        "settings": "src\/field\/8fd9a265-a614-4ce4-894f-89b00950c159\/item.json",
+        "guid": "8fd9a265-a614-4ce4-894f-89b00950c159"
+    },
+    "86c2a13b-b171-4348-841e-75267d14c089": {
+        "name": "Project_widgeteditor",
+        "path": "src\/field\/86c2a13b-b171-4348-841e-75267d14c089",
+        "settings": "src\/field\/86c2a13b-b171-4348-841e-75267d14c089\/item.json",
+        "guid": "86c2a13b-b171-4348-841e-75267d14c089"
+    },
+    "bbbfa612-f7c0-4ad1-b2ef-6f07d11163d9": {
+        "name": "Project_Headertekst",
+        "path": "src\/field\/bbbfa612-f7c0-4ad1-b2ef-6f07d11163d9",
+        "settings": "src\/field\/bbbfa612-f7c0-4ad1-b2ef-6f07d11163d9\/item.json",
+        "guid": "bbbfa612-f7c0-4ad1-b2ef-6f07d11163d9"
+    },
+    "11f5342c-340a-4a77-835e-d1172ad2d584": {
+        "name": "Project_layerindex 1",
+        "path": "src\/field\/11f5342c-340a-4a77-835e-d1172ad2d584",
+        "settings": "src\/field\/11f5342c-340a-4a77-835e-d1172ad2d584\/item.json",
+        "guid": "11f5342c-340a-4a77-835e-d1172ad2d584"
+    },
+    "98096182-8b25-4ae8-a298-d816201ebbcc": {
+        "name": "Project_layerindex 2",
+        "path": "src\/field\/98096182-8b25-4ae8-a298-d816201ebbcc",
+        "settings": "src\/field\/98096182-8b25-4ae8-a298-d816201ebbcc\/item.json",
+        "guid": "98096182-8b25-4ae8-a298-d816201ebbcc"
+    },
+    "9b89bb3d-721f-47d2-b42e-fb86fed8138f": {
+        "name": "Project_layerindex 3",
+        "path": "src\/field\/9b89bb3d-721f-47d2-b42e-fb86fed8138f",
+        "settings": "src\/field\/9b89bb3d-721f-47d2-b42e-fb86fed8138f\/item.json",
+        "guid": "9b89bb3d-721f-47d2-b42e-fb86fed8138f"
+    },
+    "48c33a78-3e18-4f03-a4cf-a3d79c9f9114": {
+        "name": "Project_layerindex 4",
+        "path": "src\/field\/48c33a78-3e18-4f03-a4cf-a3d79c9f9114",
+        "settings": "src\/field\/48c33a78-3e18-4f03-a4cf-a3d79c9f9114\/item.json",
+        "guid": "48c33a78-3e18-4f03-a4cf-a3d79c9f9114"
+    },
+    "da3e9012-ed00-415d-ae8b-8484694e0eae": {
+        "name": "Project_layerindex 5",
+        "path": "src\/field\/da3e9012-ed00-415d-ae8b-8484694e0eae",
+        "settings": "src\/field\/da3e9012-ed00-415d-ae8b-8484694e0eae\/item.json",
+        "guid": "da3e9012-ed00-415d-ae8b-8484694e0eae"
+    },
+    "e5fb5c2d-ecc0-499e-8ccf-59e5d22c6629": {
+        "name": "Project_layerindex 6",
+        "path": "src\/field\/e5fb5c2d-ecc0-499e-8ccf-59e5d22c6629",
+        "settings": "src\/field\/e5fb5c2d-ecc0-499e-8ccf-59e5d22c6629\/item.json",
+        "guid": "e5fb5c2d-ecc0-499e-8ccf-59e5d22c6629"
+    },
+    "09fe5ece-8743-41fd-9c54-77dbf7572270": {
+        "name": "Project_layerindex 7",
+        "path": "src\/field\/09fe5ece-8743-41fd-9c54-77dbf7572270",
+        "settings": "src\/field\/09fe5ece-8743-41fd-9c54-77dbf7572270\/item.json",
+        "guid": "09fe5ece-8743-41fd-9c54-77dbf7572270"
+    },
+    "df54599c-a444-45e0-b97c-a916e0cf6df9": {
+        "name": "Project_layerindex 8",
+        "path": "src\/field\/df54599c-a444-45e0-b97c-a916e0cf6df9",
+        "settings": "src\/field\/df54599c-a444-45e0-b97c-a916e0cf6df9\/item.json",
+        "guid": "df54599c-a444-45e0-b97c-a916e0cf6df9"
+    },
+    "b63f68f9-b181-4f78-9533-3e4a8cf69c08": {
+        "name": "Project_type",
+        "path": "src\/field\/b63f68f9-b181-4f78-9533-3e4a8cf69c08",
+        "settings": "src\/field\/b63f68f9-b181-4f78-9533-3e4a8cf69c08\/item.json",
+        "guid": "b63f68f9-b181-4f78-9533-3e4a8cf69c08"
+    },
+    "1e63b9af-7490-4780-b119-e2e592162547": {
+        "name": "Project_server",
+        "path": "src\/field\/1e63b9af-7490-4780-b119-e2e592162547",
+        "settings": "src\/field\/1e63b9af-7490-4780-b119-e2e592162547\/item.json",
+        "guid": "1e63b9af-7490-4780-b119-e2e592162547"
+    },
+    "2fb30c92-80c4-456b-92b8-07bd4a054c7c": {
+        "name": "Project_mapid",
+        "path": "src\/field\/2fb30c92-80c4-456b-92b8-07bd4a054c7c",
+        "settings": "src\/field\/2fb30c92-80c4-456b-92b8-07bd4a054c7c\/item.json",
+        "guid": "2fb30c92-80c4-456b-92b8-07bd4a054c7c"
+    },
+    "952b6db0-a735-45a7-b3b7-95ec7e1fc03e": {
+        "name": "Project_Oppervlakte",
+        "path": "src\/field\/952b6db0-a735-45a7-b3b7-95ec7e1fc03e",
+        "settings": "src\/field\/952b6db0-a735-45a7-b3b7-95ec7e1fc03e\/item.json",
+        "guid": "952b6db0-a735-45a7-b3b7-95ec7e1fc03e"
+    },
+    "8a253ade-3863-44e2-9701-c67463d9670a": {
+        "name": "Project_logo",
+        "path": "src\/field\/8a253ade-3863-44e2-9701-c67463d9670a",
+        "settings": "src\/field\/8a253ade-3863-44e2-9701-c67463d9670a\/item.json",
+        "guid": "8a253ade-3863-44e2-9701-c67463d9670a"
+    },
+    "6bb96eff-ddce-48d8-8a2f-947798e4e0b2": {
+        "name": "Project_discipline",
+        "path": "src\/field\/6bb96eff-ddce-48d8-8a2f-947798e4e0b2",
+        "settings": "src\/field\/6bb96eff-ddce-48d8-8a2f-947798e4e0b2\/item.json",
+        "guid": "6bb96eff-ddce-48d8-8a2f-947798e4e0b2"
+    },
+    "7182c796-0d19-4e3c-abeb-5ea19257a269": {
+        "name": "Beeld_meetlatgroep",
+        "path": "src\/field\/7182c796-0d19-4e3c-abeb-5ea19257a269",
+        "settings": "src\/field\/7182c796-0d19-4e3c-abeb-5ea19257a269\/item.json",
+        "guid": "7182c796-0d19-4e3c-abeb-5ea19257a269"
+    },
+    "d6fecb30-26a1-4820-b203-6f896df2e23e": {
+        "name": "Beeld_meetlatgroepid",
+        "path": "src\/field\/d6fecb30-26a1-4820-b203-6f896df2e23e",
+        "settings": "src\/field\/d6fecb30-26a1-4820-b203-6f896df2e23e\/item.json",
+        "guid": "d6fecb30-26a1-4820-b203-6f896df2e23e"
+    },
+    "681b2198-2565-4d66-b25a-618f064456ff": {
+        "name": "Beeld_meetlat",
+        "path": "src\/field\/681b2198-2565-4d66-b25a-618f064456ff",
+        "settings": "src\/field\/681b2198-2565-4d66-b25a-618f064456ff\/item.json",
+        "guid": "681b2198-2565-4d66-b25a-618f064456ff"
+    },
+    "b97fcc97-0cf9-4cb7-a89e-3c8f89ecff0b": {
+        "name": "Beeld_meetlatafbeelding",
+        "path": "src\/field\/b97fcc97-0cf9-4cb7-a89e-3c8f89ecff0b",
+        "settings": "src\/field\/b97fcc97-0cf9-4cb7-a89e-3c8f89ecff0b\/item.json",
+        "guid": "b97fcc97-0cf9-4cb7-a89e-3c8f89ecff0b"
+    },
+    "37ee6736-87ae-4dec-a6b9-3552f6dfab7c": {
+        "name": "Project_projectindex",
+        "path": "src\/field\/37ee6736-87ae-4dec-a6b9-3552f6dfab7c",
+        "settings": "src\/field\/37ee6736-87ae-4dec-a6b9-3552f6dfab7c\/item.json",
+        "guid": "37ee6736-87ae-4dec-a6b9-3552f6dfab7c"
+    },
+    "17c7528f-7a50-47eb-a6d1-fd8d63b5b1ed": {
+        "name": "Beeld_schouwrondemeetlatten",
+        "path": "src\/field\/17c7528f-7a50-47eb-a6d1-fd8d63b5b1ed",
+        "settings": "src\/field\/17c7528f-7a50-47eb-a6d1-fd8d63b5b1ed\/item.json",
+        "guid": "17c7528f-7a50-47eb-a6d1-fd8d63b5b1ed"
+    },
+    "4be40bd2-47ea-49d8-b1ce-3aaf7a1c8543": {
+        "name": "Beeld_mapid",
+        "path": "src\/field\/4be40bd2-47ea-49d8-b1ce-3aaf7a1c8543",
+        "settings": "src\/field\/4be40bd2-47ea-49d8-b1ce-3aaf7a1c8543\/item.json",
+        "guid": "4be40bd2-47ea-49d8-b1ce-3aaf7a1c8543"
+    },
+    "482bfe80-cb81-4e4b-ace2-9b50a186378c": {
+        "name": "Beeld_schouwrondecriterium",
+        "path": "src\/field\/482bfe80-cb81-4e4b-ace2-9b50a186378c",
+        "settings": "src\/field\/482bfe80-cb81-4e4b-ace2-9b50a186378c\/item.json",
+        "guid": "482bfe80-cb81-4e4b-ace2-9b50a186378c"
+    },
+    "691efd60-afb4-4054-b652-57c49d481ac4": {
+        "name": "Beeld_schouwrondekoppeling",
+        "path": "src\/field\/691efd60-afb4-4054-b652-57c49d481ac4",
+        "settings": "src\/field\/691efd60-afb4-4054-b652-57c49d481ac4\/item.json",
+        "guid": "691efd60-afb4-4054-b652-57c49d481ac4"
+    },
+    "89c1cb06-fef0-4f39-bff9-493489612ce4": {
+        "name": "Beeld_schouwrondenaam",
+        "path": "src\/field\/89c1cb06-fef0-4f39-bff9-493489612ce4",
+        "settings": "src\/field\/89c1cb06-fef0-4f39-bff9-493489612ce4\/item.json",
+        "guid": "89c1cb06-fef0-4f39-bff9-493489612ce4"
+    },
+    "113b3a43-f023-475f-a24e-d5370216d934": {
+        "name": "Beeld_oordeeldatum",
+        "path": "src\/field\/113b3a43-f023-475f-a24e-d5370216d934",
+        "settings": "src\/field\/113b3a43-f023-475f-a24e-d5370216d934\/item.json",
+        "guid": "113b3a43-f023-475f-a24e-d5370216d934"
+    },
+    "d2e2428b-0b19-4e77-8007-85c6fc640297": {
+        "name": "Beeld_schouwrondeindex",
+        "path": "src\/field\/d2e2428b-0b19-4e77-8007-85c6fc640297",
+        "settings": "src\/field\/d2e2428b-0b19-4e77-8007-85c6fc640297\/item.json",
+        "guid": "d2e2428b-0b19-4e77-8007-85c6fc640297"
+    },
+    "d08725c5-f77c-484d-8606-defe7d398f34": {
+        "name": "Beeld_oordeel",
+        "path": "src\/field\/d08725c5-f77c-484d-8606-defe7d398f34",
+        "settings": "src\/field\/d08725c5-f77c-484d-8606-defe7d398f34\/item.json",
+        "guid": "d08725c5-f77c-484d-8606-defe7d398f34"
+    },
+    "b51cf377-a8e6-4976-ad8b-f128c07948c3": {
+        "name": "Beeld_objectid",
+        "path": "src\/field\/b51cf377-a8e6-4976-ad8b-f128c07948c3",
+        "settings": "src\/field\/b51cf377-a8e6-4976-ad8b-f128c07948c3\/item.json",
+        "guid": "b51cf377-a8e6-4976-ad8b-f128c07948c3"
+    },
+    "d27174fd-232c-431a-958b-701abb9facf4": {
+        "name": "Beeld_meetlatindex",
+        "path": "src\/field\/d27174fd-232c-431a-958b-701abb9facf4",
+        "settings": "src\/field\/d27174fd-232c-431a-958b-701abb9facf4\/item.json",
+        "guid": "d27174fd-232c-431a-958b-701abb9facf4"
+    },
+    "f88cdc0b-4363-401c-9741-0f6a4c543551": {
+        "name": "Beeld_meetlatscoreindex",
+        "path": "src\/field\/f88cdc0b-4363-401c-9741-0f6a4c543551",
+        "settings": "src\/field\/f88cdc0b-4363-401c-9741-0f6a4c543551\/item.json",
+        "guid": "f88cdc0b-4363-401c-9741-0f6a4c543551"
+    },
+    "61902976-ffec-44c7-813d-b93f0e61ddef": {
+        "name": "Beeld_score",
+        "path": "src\/field\/61902976-ffec-44c7-813d-b93f0e61ddef",
+        "settings": "src\/field\/61902976-ffec-44c7-813d-b93f0e61ddef\/item.json",
+        "guid": "61902976-ffec-44c7-813d-b93f0e61ddef"
+    },
+    "97365841-98bd-4513-907a-9b8041b2b323": {
+        "name": "Beeld_imageurl",
+        "path": "src\/field\/97365841-98bd-4513-907a-9b8041b2b323",
+        "settings": "src\/field\/97365841-98bd-4513-907a-9b8041b2b323\/item.json",
+        "guid": "97365841-98bd-4513-907a-9b8041b2b323"
+    },
+    "ce99c66d-96b3-4b0a-9ea5-0e1aa7863d8a": {
+        "name": "Beeld_commentaar",
+        "path": "src\/field\/ce99c66d-96b3-4b0a-9ea5-0e1aa7863d8a",
+        "settings": "src\/field\/ce99c66d-96b3-4b0a-9ea5-0e1aa7863d8a\/item.json",
+        "guid": "ce99c66d-96b3-4b0a-9ea5-0e1aa7863d8a"
+    },
+    "a5078385-27e0-4e2e-a2ad-38c9e1d02a1a": {
+        "name": "Beeld_sectievolgorde",
+        "path": "src\/field\/a5078385-27e0-4e2e-a2ad-38c9e1d02a1a",
+        "settings": "src\/field\/a5078385-27e0-4e2e-a2ad-38c9e1d02a1a\/item.json",
+        "guid": "a5078385-27e0-4e2e-a2ad-38c9e1d02a1a"
+    },
+    "1a9c8616-f97d-4feb-bf85-27014dc92182": {
+        "name": "Beeld_sectieobjectids",
+        "path": "src\/field\/1a9c8616-f97d-4feb-bf85-27014dc92182",
+        "settings": "src\/field\/1a9c8616-f97d-4feb-bf85-27014dc92182\/item.json",
+        "guid": "1a9c8616-f97d-4feb-bf85-27014dc92182"
+    },
+    "f310a6d7-818b-462d-9ca3-a9219024f7d0": {
+        "name": "Berkel_latitude",
+        "path": "src\/field\/f310a6d7-818b-462d-9ca3-a9219024f7d0",
+        "settings": "src\/field\/f310a6d7-818b-462d-9ca3-a9219024f7d0\/item.json",
+        "guid": "f310a6d7-818b-462d-9ca3-a9219024f7d0"
+    },
+    "927d1fee-983d-4823-acc1-058e3c19743c": {
+        "name": "Berkel_longitude",
+        "path": "src\/field\/927d1fee-983d-4823-acc1-058e3c19743c",
+        "settings": "src\/field\/927d1fee-983d-4823-acc1-058e3c19743c\/item.json",
+        "guid": "927d1fee-983d-4823-acc1-058e3c19743c"
+    },
+    "7c8f42e5-4019-4651-bdeb-7823ef74ef02": {
+        "name": "Beeld-lagen",
+        "path": "src\/field\/7c8f42e5-4019-4651-bdeb-7823ef74ef02",
+        "settings": "src\/field\/7c8f42e5-4019-4651-bdeb-7823ef74ef02\/item.json",
+        "guid": "7c8f42e5-4019-4651-bdeb-7823ef74ef02"
     }
 }
