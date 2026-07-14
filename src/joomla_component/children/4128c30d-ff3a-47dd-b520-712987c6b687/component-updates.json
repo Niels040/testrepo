@@ -1,0 +1,89 @@
+{
+    "joomla_component": "4128c30d-ff3a-47dd-b520-712987c6b687",
+    "version_update": {
+        "version_update0": {
+            "version": "1.0.0",
+            "mysql": "ALTER TABLE `#__projecten_user` ADD `projectindex` INT(11) NOT NULL DEFAULT 0 AFTER `asset_id`;\n\nCREATE TABLE IF NOT EXISTS `#__projecten_dpiproject` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`actief` INT(1) NOT NULL DEFAULT 0,\n\t`beeldkwaliteit` INT(1) NOT NULL DEFAULT 0,\n\t`beheerplanning` INT(1) NOT NULL DEFAULT 0,\n\t`deelopdrachten` INT(1) NOT NULL DEFAULT 0,\n\t`ibor` INT(1) NOT NULL DEFAULT 0,\n\t`projectnummer` VARCHAR(50) NOT NULL DEFAULT '',\n\t`projecttitel` VARCHAR(255) NOT NULL DEFAULT '',\n\t`slaeco` INT(1) NOT NULL DEFAULT 0,\n\t`taken` INT(1) NOT NULL DEFAULT 0,\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_projectnummer` (`projectnummer`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;\n\nRENAME TABLE `#__projecten_project` to `#__projecten_lycensproject`;\n\nALTER TABLE `#__projecten_kaart` CHANGE `kalayerindex` `layerindexone` INT(7) NOT NULL DEFAULT 0;\n\nALTER TABLE `#__projecten_kaart` CHANGE `melayerindex` `layerindexthree` INT(7) NOT NULL DEFAULT 0;\n\nALTER TABLE `#__projecten_kaart` CHANGE `memeldingindex` `layerindextwo` INT(7) NOT NULL DEFAULT 0;\n\nALTER TABLE `#__projecten_bpwaproject` ADD `deelopdrachten` INT(1) NOT NULL DEFAULT 0 AFTER `berkelproject`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update1": {
+            "version": "1.0.1",
+            "mysql": "CREATE TABLE IF NOT EXISTS `#__projecten_kaart` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`bklayerindex` INT(7) NOT NULL DEFAULT 0,\n\t`bkmeldingindex` INT(7) NOT NULL DEFAULT 0,\n\t`bplayerindex_one` INT(7) NOT NULL DEFAULT 0,\n\t`bplayerindex_two` INT(7) NOT NULL DEFAULT 0,\n\t`bpmeldingindex_one` INT(7) NOT NULL DEFAULT 0,\n\t`bpmeldingindex_two` INT(7) NOT NULL DEFAULT 0,\n\t`ibidtype` INT(7) NOT NULL DEFAULT 0,\n\t`iblayerindex` INT(7) NOT NULL DEFAULT 0,\n\t`mapid` VARCHAR(255) NOT NULL DEFAULT '',\n\t`oppervlakte` VARCHAR(50) NOT NULL DEFAULT '',\n\t`projectindex` INT(11) NOT NULL DEFAULT 0,\n\t`selayerindex` INT(7) NOT NULL DEFAULT 0,\n\t`setoevoegindex` INT(7) NOT NULL DEFAULT 0,\n\t`talayerindex` INT(7) NOT NULL DEFAULT 0,\n\t`type` INT(7) NOT NULL DEFAULT 0,\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_mapid` (`mapid`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;\n\nALTER TABLE `#__projecten_bpwaproject` CHANGE `meldingen` `bea` INT(1) NOT NULL DEFAULT 0;\n\nALTER TABLE `#__projecten_kaart` ADD `oppervlakte` VARCHAR(255) NOT NULL DEFAULT '' AFTER `mapid`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update2": {
+            "version": "1.0.2",
+            "mysql": "ALTER TABLE `#__projecten_kaart` CHANGE `bplayerindex` `dolayerindex` INT(7) NOT NULL DEFAULT 0;\n\nALTER TABLE `#__projecten_kaart` CHANGE `bpmeldingindex` `domeldingindex` INT(7) NOT NULL DEFAULT 0;\n\nALTER TABLE `#__projecten_kaart` CHANGE `oppervlakte` `oppervlakte` VARCHAR(50) NOT NULL DEFAULT '';",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update3": {
+            "version": "1.0.3",
+            "mysql": "ALTER TABLE `#__projecten_dpiproject` ADD `vta` INT(1) NOT NULL DEFAULT 0 AFTER `taken`;\n\nALTER TABLE `#__projecten_kaart` ADD `server` INT(7) NOT NULL DEFAULT 0 AFTER `projectindex`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update4": {
+            "version": "1.0.4",
+            "mysql": "ALTER TABLE `#__projecten_kaart` ADD `vtlayerindex` INT(7) NOT NULL DEFAULT 0 AFTER `type`;\n\nALTER TABLE `#__projecten_bpwaproject` ADD `hooby` INT(1) NOT NULL DEFAULT 0 AFTER `ecologie`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update5": {
+            "version": "1.0.5",
+            "mysql": "ALTER TABLE `#__projecten_dpiproject` ADD `kaarten` INT(1) NOT NULL DEFAULT 0 AFTER `ibor`;\n\nALTER TABLE `#__projecten_kaart` ADD `kalayerindex` INT(7) NOT NULL DEFAULT 0 AFTER `iblayerindex`;\n\nALTER TABLE `#__projecten_bpwaproject` ADD `bragisform` INT(1) NOT NULL DEFAULT 0 AFTER `berkelproject`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update6": {
+            "version": "1.0.6",
+            "mysql": "ALTER TABLE `#__projecten_dpiproject` ADD `beheerplanningtwee` INT(1) NOT NULL DEFAULT 0 AFTER `beheerplanning`;\n\nALTER TABLE `#__projecten_kaart` ADD `beheerplanningtwee` INT(1) NOT NULL DEFAULT 0 AFTER `asset_id`;\n\nALTER TABLE `#__projecten_bpwaproject` ADD `register` INT(1) NOT NULL DEFAULT 0 AFTER `projecttitel`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update7": {
+            "version": "1.0.7",
+            "mysql": "ALTER TABLE `#__projecten_kaart` ADD `bplayerindextwee` INT(7) NOT NULL DEFAULT 0 AFTER `bplayerindex`;\n\nALTER TABLE `#__projecten_kaart` ADD `bpmeldingindextwee` INT(7) NOT NULL DEFAULT 0 AFTER `bpmeldingindex`;\n\nALTER TABLE `#__projecten_kaart` ADD `header` TEXT NOT NULL AFTER `asset_id`;\n\nALTER TABLE `#__projecten_kaart` ADD `logo` VARCHAR(255) NOT NULL DEFAULT '' AFTER `layerindextwo`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update8": {
+            "version": "1.0.8",
+            "mysql": "ALTER TABLE `#__projecten_kaart` ADD `locatie` VARCHAR(50) NOT NULL DEFAULT '' AFTER `kalayerindex`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update9": {
+            "version": "1.0.9",
+            "mysql": "ALTER TABLE `#__projecten_kaart` CHANGE `locatie` `bplocatie` VARCHAR(50) NOT NULL DEFAULT '';",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update10": {
+            "version": "1.0.10",
+            "mysql": "ALTER TABLE `#__projecten_kaart` CHANGE `bplocatie` `bklocatie` VARCHAR(50) NOT NULL DEFAULT '';",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update11": {
+            "version": "1.0.11",
+            "mysql": "",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update12": {
+            "version": "1.1.0",
+            "mysql": "ALTER TABLE `#__projecten_email` ADD `discipline` INT(7) NOT NULL DEFAULT 0 AFTER `asset_id`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update13": {
+            "version": "1.1.1",
+            "mysql": "ALTER TABLE `#__projecten_bpwaproject` ADD `vtabvc` INT(1) NOT NULL DEFAULT 0 AFTER `vta`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update14": {
+            "version": "1.1.2",
+            "mysql": "",
+            "url": "http:\/\/domain.com\/demo.zip"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "4128c30d-ff3a-47dd-b520-712987c6b687",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}
