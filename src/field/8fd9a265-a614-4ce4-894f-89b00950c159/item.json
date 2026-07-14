@@ -1,0 +1,35 @@
+{
+    "name": "Project_VTA_BVC",
+    "fieldtype": "10066262-b6e3-4f82-941e-cbe4f61ddd6c",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"checkbox\"\n\tname=\"vtabvc\"\n\tlabel=\"VTA BVC\"\n\tvalue=\"1\"\n\tdefault=\"0\"\n\trequired=\"false\"\n\tdescription=\"VTA BVC\"\n\tclass=\"inputbox\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
+    "datalenght": "1",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "8fd9a265-a614-4ce4-894f-89b00950c159",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "10066262-b6e3-4f82-941e-cbe4f61ddd6c",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
