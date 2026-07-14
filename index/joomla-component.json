@@ -33,5 +33,19 @@
         "settings": "src\/joomla_component\/77d905a1-d7ef-4f05-b293-1409900e9390\/item.json",
         "guid": "77d905a1-d7ef-4f05-b293-1409900e9390",
         "desc": "Portaal voor portalen"
+    },
+    "4128c30d-ff3a-47dd-b520-712987c6b687": {
+        "name": "Projecten",
+        "path": "src\/joomla_component\/4128c30d-ff3a-47dd-b520-712987c6b687",
+        "settings": "src\/joomla_component\/4128c30d-ff3a-47dd-b520-712987c6b687\/item.json",
+        "guid": "4128c30d-ff3a-47dd-b520-712987c6b687",
+        "desc": "Projecten"
+    },
+    "ea78e036-e712-47f3-920b-b3e4660a7c76": {
+        "name": "Beeldkwaliteit",
+        "path": "src\/joomla_component\/ea78e036-e712-47f3-920b-b3e4660a7c76",
+        "settings": "src\/joomla_component\/ea78e036-e712-47f3-920b-b3e4660a7c76\/item.json",
+        "guid": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+        "desc": "Beeldkwaliteit"
     }
 }
