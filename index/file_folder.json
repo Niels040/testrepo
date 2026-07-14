@@ -73,5 +73,125 @@
         "name": "C:\\laragon\\www\\j6\\administrator\\components\\com_componentbuilder\\compiler\\default.txt",
         "path": "src\/file_folder\/4595820b-4dd0-5b4a-935e-82075b516afe.txt",
         "guid": "4595820b-4dd0-5b4a-935e-82075b516afe.txt"
+    },
+    "880ee7e0-2cb7-515c-aecf-6a0dfcc801a4.png": {
+        "name": "images\/bragis300.png",
+        "path": "src\/file_folder\/880ee7e0-2cb7-515c-aecf-6a0dfcc801a4.png",
+        "guid": "880ee7e0-2cb7-515c-aecf-6a0dfcc801a4.png"
+    },
+    "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt": {
+        "name": "default.txt",
+        "path": "src\/file_folder\/422f4f9a-ef9b-51c9-924b-84994fede0e4.txt",
+        "guid": "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt"
+    },
+    "0c761705-2e68-5ea1-8b52-ea899bcf71b6.png": {
+        "name": "images\/user.png",
+        "path": "src\/file_folder\/0c761705-2e68-5ea1-8b52-ea899bcf71b6.png",
+        "guid": "0c761705-2e68-5ea1-8b52-ea899bcf71b6.png"
+    },
+    "0722916d-10f1-5175-be74-bc76a601a281.png": {
+        "name": "images\/user+.png",
+        "path": "src\/file_folder\/0722916d-10f1-5175-be74-bc76a601a281.png",
+        "guid": "0722916d-10f1-5175-be74-bc76a601a281.png"
+    },
+    "92994387-62fa-5c41-8119-50e089a83b33.png": {
+        "name": "images\/project.png",
+        "path": "src\/file_folder\/92994387-62fa-5c41-8119-50e089a83b33.png",
+        "guid": "92994387-62fa-5c41-8119-50e089a83b33.png"
+    },
+    "c9b70bcb-a07e-59fe-8f78-8b80de14fcf7.png": {
+        "name": "images\/project+.png",
+        "path": "src\/file_folder\/c9b70bcb-a07e-59fe-8f78-8b80de14fcf7.png",
+        "guid": "c9b70bcb-a07e-59fe-8f78-8b80de14fcf7.png"
+    },
+    "e7ca5dac-947c-5927-88c0-fcfe59d2abeb.png": {
+        "name": "images\/kaart.png",
+        "path": "src\/file_folder\/e7ca5dac-947c-5927-88c0-fcfe59d2abeb.png",
+        "guid": "e7ca5dac-947c-5927-88c0-fcfe59d2abeb.png"
+    },
+    "11b44da3-02e9-5bf5-aa41-82cc84d85a7c.png": {
+        "name": "images\/kaart+.png",
+        "path": "src\/file_folder\/11b44da3-02e9-5bf5-aa41-82cc84d85a7c.png",
+        "guid": "11b44da3-02e9-5bf5-aa41-82cc84d85a7c.png"
+    },
+    "257ec9cb-d140-5fd3-a904-15db870eb4a1.png": {
+        "name": "images\/email.png",
+        "path": "src\/file_folder\/257ec9cb-d140-5fd3-a904-15db870eb4a1.png",
+        "guid": "257ec9cb-d140-5fd3-a904-15db870eb4a1.png"
+    },
+    "443bcd60-ca5e-50cb-b9ff-219b956523f1.png": {
+        "name": "images\/email+.png",
+        "path": "src\/file_folder\/443bcd60-ca5e-50cb-b9ff-219b956523f1.png",
+        "guid": "443bcd60-ca5e-50cb-b9ff-219b956523f1.png"
+    },
+    "06f82bdc-a9b2-57cb-8a21-906e33b9d32f.png": {
+        "name": "images\/beeldmeetlatgroep.png",
+        "path": "src\/file_folder\/06f82bdc-a9b2-57cb-8a21-906e33b9d32f.png",
+        "guid": "06f82bdc-a9b2-57cb-8a21-906e33b9d32f.png"
+    },
+    "9decfccc-17d8-57fe-b270-7e552354ad2f.png": {
+        "name": "images\/beeldmeetlatgroepadd.png",
+        "path": "src\/file_folder\/9decfccc-17d8-57fe-b270-7e552354ad2f.png",
+        "guid": "9decfccc-17d8-57fe-b270-7e552354ad2f.png"
+    },
+    "ee70bf37-d3b8-5002-8f02-2ff60d62077c.png": {
+        "name": "images\/beeldmeetlat.png",
+        "path": "src\/file_folder\/ee70bf37-d3b8-5002-8f02-2ff60d62077c.png",
+        "guid": "ee70bf37-d3b8-5002-8f02-2ff60d62077c.png"
+    },
+    "c3e95dbc-2801-52a6-b4c8-75b7049c6fe3.png": {
+        "name": "images\/beeldmeetlatadd.png",
+        "path": "src\/file_folder\/c3e95dbc-2801-52a6-b4c8-75b7049c6fe3.png",
+        "guid": "c3e95dbc-2801-52a6-b4c8-75b7049c6fe3.png"
+    },
+    "ea42759e-084f-5b11-ba25-d5a3133bb58a.png": {
+        "name": "images\/schouwronde.png",
+        "path": "src\/file_folder\/ea42759e-084f-5b11-ba25-d5a3133bb58a.png",
+        "guid": "ea42759e-084f-5b11-ba25-d5a3133bb58a.png"
+    },
+    "708b45ee-26a9-5d03-bce6-dc011167bf3f.png": {
+        "name": "images\/schouwrondeadd.png",
+        "path": "src\/file_folder\/708b45ee-26a9-5d03-bce6-dc011167bf3f.png",
+        "guid": "708b45ee-26a9-5d03-bce6-dc011167bf3f.png"
+    },
+    "90e6d8ed-0d63-58b2-873b-73972899d865.png": {
+        "name": "images\/meetlatscore.png",
+        "path": "src\/file_folder\/90e6d8ed-0d63-58b2-873b-73972899d865.png",
+        "guid": "90e6d8ed-0d63-58b2-873b-73972899d865.png"
+    },
+    "14e42329-77cc-562f-8ef2-c50bf1c8af16.png": {
+        "name": "images\/meetlatscoreadd.png",
+        "path": "src\/file_folder\/14e42329-77cc-562f-8ef2-c50bf1c8af16.png",
+        "guid": "14e42329-77cc-562f-8ef2-c50bf1c8af16.png"
+    },
+    "dfcc32af-a872-572a-8431-9d28f0d9b2e6.png": {
+        "name": "images\/beeldsscoreadd.png",
+        "path": "src\/file_folder\/dfcc32af-a872-572a-8431-9d28f0d9b2e6.png",
+        "guid": "dfcc32af-a872-572a-8431-9d28f0d9b2e6.png"
+    },
+    "660fc21e-83ca-5b9c-b43f-579e5fb194c0.png": {
+        "name": "images\/beeldscore.png",
+        "path": "src\/file_folder\/660fc21e-83ca-5b9c-b43f-579e5fb194c0.png",
+        "guid": "660fc21e-83ca-5b9c-b43f-579e5fb194c0.png"
+    },
+    "e15facbf-a9d5-5d50-a9b1-db3ab7fdf243.png": {
+        "name": "images\/sectieronde.png",
+        "path": "src\/file_folder\/e15facbf-a9d5-5d50-a9b1-db3ab7fdf243.png",
+        "guid": "e15facbf-a9d5-5d50-a9b1-db3ab7fdf243.png"
+    },
+    "1789be20-3bae-5fca-8c9e-7cbc613508eb.png": {
+        "name": "images\/sectierondeadd.png",
+        "path": "src\/file_folder\/1789be20-3bae-5fca-8c9e-7cbc613508eb.png",
+        "guid": "1789be20-3bae-5fca-8c9e-7cbc613508eb.png"
+    },
+    "7e63aa16-af11-57b3-a52b-6eb55d0afacd.png": {
+        "name": "images\/melding.png",
+        "path": "src\/file_folder\/7e63aa16-af11-57b3-a52b-6eb55d0afacd.png",
+        "guid": "7e63aa16-af11-57b3-a52b-6eb55d0afacd.png"
+    },
+    "34d0dc45-bed3-55d7-a3c4-b14abd1bcb06.png": {
+        "name": "images\/meldingadd.png",
+        "path": "src\/file_folder\/34d0dc45-bed3-55d7-a3c4-b14abd1bcb06.png",
+        "guid": "34d0dc45-bed3-55d7-a3c4-b14abd1bcb06.png"
     }
 }
