@@ -110,5 +110,89 @@
         "settings": "src\/admin_view\/71cfdcc8-d17a-4724-8169-6996c99e788b\/item.json",
         "guid": "71cfdcc8-d17a-4724-8169-6996c99e788b",
         "desc": "list of portals"
+    },
+    "2d7e771c-d5f1-45ec-8a00-590f03e38e50": {
+        "name": "User",
+        "path": "src\/admin_view\/2d7e771c-d5f1-45ec-8a00-590f03e38e50",
+        "settings": "src\/admin_view\/2d7e771c-d5f1-45ec-8a00-590f03e38e50\/item.json",
+        "guid": "2d7e771c-d5f1-45ec-8a00-590f03e38e50",
+        "desc": "User"
+    },
+    "c6b58005-0f64-4dd9-a482-1811abf80e13": {
+        "name": "BPWAproject",
+        "path": "src\/admin_view\/c6b58005-0f64-4dd9-a482-1811abf80e13",
+        "settings": "src\/admin_view\/c6b58005-0f64-4dd9-a482-1811abf80e13\/item.json",
+        "guid": "c6b58005-0f64-4dd9-a482-1811abf80e13",
+        "desc": "BraGISproject"
+    },
+    "342ec518-abb9-4789-bfbb-5b0614e2be50": {
+        "name": "Kaart",
+        "path": "src\/admin_view\/342ec518-abb9-4789-bfbb-5b0614e2be50",
+        "settings": "src\/admin_view\/342ec518-abb9-4789-bfbb-5b0614e2be50\/item.json",
+        "guid": "342ec518-abb9-4789-bfbb-5b0614e2be50",
+        "desc": "Kaart"
+    },
+    "9edf0af3-d51d-470c-a145-12f117af2141": {
+        "name": "Email",
+        "path": "src\/admin_view\/9edf0af3-d51d-470c-a145-12f117af2141",
+        "settings": "src\/admin_view\/9edf0af3-d51d-470c-a145-12f117af2141\/item.json",
+        "guid": "9edf0af3-d51d-470c-a145-12f117af2141",
+        "desc": "Email"
+    },
+    "eaa6075c-024a-4840-9c19-b84d8786bd8d": {
+        "name": "Beeldmeetlatgroep",
+        "path": "src\/admin_view\/eaa6075c-024a-4840-9c19-b84d8786bd8d",
+        "settings": "src\/admin_view\/eaa6075c-024a-4840-9c19-b84d8786bd8d\/item.json",
+        "guid": "eaa6075c-024a-4840-9c19-b84d8786bd8d",
+        "desc": "Beeldmeetlat groep"
+    },
+    "9f4e1461-fab2-481e-be56-756b35ec0005": {
+        "name": "Beeldmeetlat",
+        "path": "src\/admin_view\/9f4e1461-fab2-481e-be56-756b35ec0005",
+        "settings": "src\/admin_view\/9f4e1461-fab2-481e-be56-756b35ec0005\/item.json",
+        "guid": "9f4e1461-fab2-481e-be56-756b35ec0005",
+        "desc": "Beeldmeetlat"
+    },
+    "b7ee75d6-80e7-4683-abdd-530f9168d738": {
+        "name": "Schouwronde",
+        "path": "src\/admin_view\/b7ee75d6-80e7-4683-abdd-530f9168d738",
+        "settings": "src\/admin_view\/b7ee75d6-80e7-4683-abdd-530f9168d738\/item.json",
+        "guid": "b7ee75d6-80e7-4683-abdd-530f9168d738",
+        "desc": "Schouwronde"
+    },
+    "404e4111-7cbd-477e-b666-e88372e2f309": {
+        "name": "Meetlatscore",
+        "path": "src\/admin_view\/404e4111-7cbd-477e-b666-e88372e2f309",
+        "settings": "src\/admin_view\/404e4111-7cbd-477e-b666-e88372e2f309\/item.json",
+        "guid": "404e4111-7cbd-477e-b666-e88372e2f309",
+        "desc": "Beeldmeetlat score"
+    },
+    "3cac440a-6909-4324-bca5-f1a059f53d6f": {
+        "name": "Beeldscore",
+        "path": "src\/admin_view\/3cac440a-6909-4324-bca5-f1a059f53d6f",
+        "settings": "src\/admin_view\/3cac440a-6909-4324-bca5-f1a059f53d6f\/item.json",
+        "guid": "3cac440a-6909-4324-bca5-f1a059f53d6f",
+        "desc": "Beeldscore"
+    },
+    "929c1fac-908f-4802-90be-83940af90799": {
+        "name": "Sectieronde",
+        "path": "src\/admin_view\/929c1fac-908f-4802-90be-83940af90799",
+        "settings": "src\/admin_view\/929c1fac-908f-4802-90be-83940af90799\/item.json",
+        "guid": "929c1fac-908f-4802-90be-83940af90799",
+        "desc": "Sectieronde"
+    },
+    "56072a49-b97b-4bb8-9618-718e5f89c676": {
+        "name": "Melding",
+        "path": "src\/admin_view\/56072a49-b97b-4bb8-9618-718e5f89c676",
+        "settings": "src\/admin_view\/56072a49-b97b-4bb8-9618-718e5f89c676\/item.json",
+        "guid": "56072a49-b97b-4bb8-9618-718e5f89c676",
+        "desc": "Melding"
+    },
+    "b06be3fd-2068-4df1-870d-28e9f149ddd2": {
+        "name": "Intersectie",
+        "path": "src\/admin_view\/b06be3fd-2068-4df1-870d-28e9f149ddd2",
+        "settings": "src\/admin_view\/b06be3fd-2068-4df1-870d-28e9f149ddd2\/item.json",
+        "guid": "b06be3fd-2068-4df1-870d-28e9f149ddd2",
+        "desc": "Intersectie"
     }
 }
