@@ -1,0 +1,149 @@
+{
+    "joomla_component": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+    "version_update": {
+        "version_update0": {
+            "version": "1.0.0",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_beeldmeetlat` ADD `groepid` INT(10) NOT NULL DEFAULT 0 AFTER `afbeelding`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update1": {
+            "version": "1.0.1",
+            "mysql": "CREATE TABLE IF NOT EXISTS `#__beeldkwaliteit_schouwronde` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`schouwronde` INT(7) NOT NULL DEFAULT 0,\n\t`schouwrondenaam` VARCHAR(100) NOT NULL DEFAULT '',\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tUNIQUE KEY `idx_schouwronde` (`schouwronde`),\n\tKEY `idx_schouwrondenaam` (`schouwrondenaam`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update2": {
+            "version": "1.0.2",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `layerid` VARCHAR(255) NOT NULL DEFAULT '' AFTER `asset_id`;\n\nALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `objectid` INT(10) NOT NULL DEFAULT 0 AFTER `layerid`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update3": {
+            "version": "1.0.3",
+            "mysql": "CREATE TABLE IF NOT EXISTS `#__beeldkwaliteit_meetlatscore` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`ingepland` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`layerid` VARCHAR(255) NOT NULL DEFAULT '',\n\t`meetlatindex` INT(7) NOT NULL DEFAULT 0,\n\t`objectid` INT(10) NOT NULL DEFAULT 0,\n\t`oordeel` INT(7) NOT NULL DEFAULT 0,\n\t`oordeeldatum` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_meetlatindex` (`meetlatindex`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update4": {
+            "version": "1.0.4",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_meetlatscore` ADD `schouwronde` INT(7) NOT NULL DEFAULT 0 AFTER `oordeeldatum`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update5": {
+            "version": "1.0.5",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_meetlatscore` ADD `objectid` INT(10) NOT NULL DEFAULT 0 AFTER `meetlatindex`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update6": {
+            "version": "1.0.6",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `opmerking` VARCHAR(1024) NOT NULL DEFAULT '' AFTER `layerid`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update7": {
+            "version": "1.0.7",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `layerid_one` VARCHAR(255) NOT NULL DEFAULT '' AFTER `asset_id`;\n\nALTER TABLE `#__beeldkwaliteit_schouwronde` CHANGE `opmerking` `rondemeetlatten` VARCHAR(2048) NOT NULL DEFAULT '';",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update8": {
+            "version": "1.0.8",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` CHANGE `layerid` `mapid` VARCHAR(255) NOT NULL DEFAULT '';",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update9": {
+            "version": "1.0.9",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_meetlatscore` CHANGE `oordeel` `oordeel` INT(4096) NOT NULL DEFAULT 0;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update10": {
+            "version": "1.0.10",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_meetlatscore` CHANGE `oordeel` `oordeel` TEXT NOT NULL;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update11": {
+            "version": "1.0.11",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_meetlatscore` CHANGE `oordeel` `oordeel` VARCHAR(4096) NOT NULL DEFAULT '';",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update12": {
+            "version": "1.0.12",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_meetlatscore` ADD `comment` VARCHAR(1024) NOT NULL DEFAULT '' AFTER `asset_id`;\n\nALTER TABLE `#__beeldkwaliteit_meetlatscore` ADD `imageurl` VARCHAR(1024) NOT NULL DEFAULT '' AFTER `comment`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update13": {
+            "version": "1.0.13",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_beeldscore` CHANGE `imageurl` `media` VARCHAR(1024) NOT NULL DEFAULT '';\n\nCREATE TABLE IF NOT EXISTS `#__beeldkwaliteit_beeldscore` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`comment` VARCHAR(1024) NOT NULL DEFAULT '',\n\t`media` VARCHAR(1024) NOT NULL DEFAULT '',\n\t`meetlatindex` INT(7) NOT NULL DEFAULT 0,\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_meetlatindex` (`meetlatindex`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update14": {
+            "version": "1.0.14",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_beeldscore` ADD `meetlatscoreindex` INT(7) NOT NULL DEFAULT 0 AFTER `media`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update15": {
+            "version": "1.0.15",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_beeldscore` ADD `score` INT(10) NOT NULL DEFAULT 0 AFTER `meetlatscoreindex`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update16": {
+            "version": "1.0.16",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_beeldscore` ADD `meetlatindex` INT(7) NOT NULL DEFAULT 0 AFTER `media`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update17": {
+            "version": "1.0.17",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `layerid` VARCHAR(255) NOT NULL DEFAULT '' AFTER `asset_id`;\n\nALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `mapid` VARCHAR(255) NOT NULL DEFAULT '' AFTER `layerid`;\n\nALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `rondecriterium` VARCHAR(2048) NOT NULL DEFAULT '' AFTER `mapid`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update18": {
+            "version": "1.0.18",
+            "mysql": "CREATE TABLE IF NOT EXISTS `#__beeldkwaliteit_sectieronde` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`schouwronde` INT(7) NOT NULL DEFAULT 0,\n\t`sectieobjectids` VARCHAR(10000) NOT NULL DEFAULT '',\n\t`sectievolgorde` INT(10) NOT NULL DEFAULT 0,\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_schouwronde` (`schouwronde`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update19": {
+            "version": "1.0.19",
+            "mysql": "CREATE TABLE IF NOT EXISTS `#__beeldkwaliteit_melding` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`comment` VARCHAR(1024) NOT NULL DEFAULT '',\n\t`latitude` FLOAT(10) NOT NULL DEFAULT 0,\n\t`longitude` FLOAT(10) NOT NULL DEFAULT 0,\n\t`media` VARCHAR(1024) NOT NULL DEFAULT '',\n\t`schouwronde` INT(7) NOT NULL DEFAULT 0,\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_schouwronde` (`schouwronde`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update20": {
+            "version": "1.0.20",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_melding` ADD `objectid` INT(10) NOT NULL DEFAULT 0 AFTER `media`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update21": {
+            "version": "1.0.21",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `projectindex` INT(7) NOT NULL DEFAULT 0 AFTER `asset_id`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update22": {
+            "version": "1.0.22",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `mapid` VARCHAR(255) NOT NULL DEFAULT '' AFTER `asset_id`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update23": {
+            "version": "1.0.23",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_schouwronde` ADD `koppeling` VARCHAR(2048) NOT NULL DEFAULT '' AFTER `asset_id`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update24": {
+            "version": "1.0.24",
+            "mysql": "CREATE TABLE IF NOT EXISTS `#__beeldkwaliteit_intersectie` (\n\t`id` INT(11) NOT NULL AUTO_INCREMENT,\n\t`asset_id` INT(10) unsigned NOT NULL DEFAULT 0 COMMENT 'FK to the #__assets table.',\n\t`lagen` TEXT NOT NULL,\n\t`objectid` INT(10) NOT NULL DEFAULT 0,\n\t`schouwronde` INT(7) NOT NULL DEFAULT 0,\n\t`params` text NOT NULL,\n\t`published` TINYINT(3) NOT NULL DEFAULT 1,\n\t`created_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`modified_by` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`created` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`modified` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`checked_out` int(11) unsigned NOT NULL DEFAULT 0,\n\t`checked_out_time` DATETIME NOT NULL DEFAULT '0000-00-00 00:00:00',\n\t`version` INT(10) unsigned NOT NULL DEFAULT 1,\n\t`hits` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`access` INT(10) unsigned NOT NULL DEFAULT 0,\n\t`ordering` INT(11) NOT NULL DEFAULT 0,\n\tPRIMARY KEY  (`id`),\n\tKEY `idx_objectid` (`objectid`),\n\tKEY `idx_access` (`access`),\n\tKEY `idx_checkout` (`checked_out`),\n\tKEY `idx_createdby` (`created_by`),\n\tKEY `idx_modifiedby` (`modified_by`),\n\tKEY `idx_state` (`published`)\n) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8mb4 DEFAULT COLLATE=utf8mb4_general_ci ROW_FORMAT=DYNAMIC;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update25": {
+            "version": "1.0.25",
+            "mysql": "ALTER TABLE `#__beeldkwaliteit_intersectie` ADD `projectindex` INT(7) NOT NULL DEFAULT 0 AFTER `objectid`;",
+            "url": "http:\/\/domain.com\/demo.zip"
+        },
+        "version_update26": {
+            "version": "1.0.26",
+            "mysql": "",
+            "url": "http:\/\/domain.com\/demo.zip"
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+            "entity": "joomla_component",
+            "table": "#__componentbuilder_joomla_component",
+            "direction": "out"
+        }
+    ]
+}
