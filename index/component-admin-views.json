@@ -10,5 +10,17 @@
         "path": "src\/joomla_component\/children\/77d905a1-d7ef-4f05-b293-1409900e9390",
         "settings": "src\/joomla_component\/children\/77d905a1-d7ef-4f05-b293-1409900e9390\/component-admin-views.json",
         "guid": "77d905a1-d7ef-4f05-b293-1409900e9390"
+    },
+    "4128c30d-ff3a-47dd-b520-712987c6b687": {
+        "name": "4128c30d-ff3a-47dd-b520-712987c6b687",
+        "path": "src\/joomla_component\/children\/4128c30d-ff3a-47dd-b520-712987c6b687",
+        "settings": "src\/joomla_component\/children\/4128c30d-ff3a-47dd-b520-712987c6b687\/component-admin-views.json",
+        "guid": "4128c30d-ff3a-47dd-b520-712987c6b687"
+    },
+    "ea78e036-e712-47f3-920b-b3e4660a7c76": {
+        "name": "ea78e036-e712-47f3-920b-b3e4660a7c76",
+        "path": "src\/joomla_component\/children\/ea78e036-e712-47f3-920b-b3e4660a7c76",
+        "settings": "src\/joomla_component\/children\/ea78e036-e712-47f3-920b-b3e4660a7c76\/component-admin-views.json",
+        "guid": "ea78e036-e712-47f3-920b-b3e4660a7c76"
     }
 }
