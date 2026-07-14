@@ -103,17 +103,17 @@
             "direction": "in"
         },
         {
-            "key": "880ee7e0-2cb7-515c-aecf-6a0dfcc801a4.png",
-            "pointer": "880ee7e0-2cb7-515c-aecf-6a0dfcc801a4--png",
-            "value": "images\/bragis300.png",
+            "key": "a2bb33e1-899b-5870-a3ae-db5b2f46c384.png",
+            "pointer": "a2bb33e1-899b-5870-a3ae-db5b2f46c384--png",
+            "value": "C:\\laragon\\www\\j6\\images\\bragis300.png",
             "entity": "file",
             "table": "file_system",
             "target": "images"
         },
         {
-            "key": "422f4f9a-ef9b-51c9-924b-84994fede0e4.txt",
-            "pointer": "422f4f9a-ef9b-51c9-924b-84994fede0e4--txt",
-            "value": "default.txt",
+            "key": "4595820b-4dd0-5b4a-935e-82075b516afe.txt",
+            "pointer": "4595820b-4dd0-5b4a-935e-82075b516afe--txt",
+            "value": "C:\\laragon\\www\\j6\\administrator\\components\\com_componentbuilder\\compiler\\default.txt",
             "entity": "file",
             "table": "file_system",
             "target": "compiler"
