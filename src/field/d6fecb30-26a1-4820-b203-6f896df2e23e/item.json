@@ -1,0 +1,35 @@
+{
+    "name": "Beeld_meetlatgroepid",
+    "fieldtype": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+    "datatype": "INT",
+    "indexes": "0",
+    "null_switch": "NOT NULL",
+    "store": 0,
+    "on_get_model_field": "",
+    "on_save_model_field": "",
+    "initiator_on_get_model": "",
+    "xml": "<field\n\ttype=\"meetlatgroepid\"\n\tname=\"groepid\"\n\tlabel=\"Beeldmeetlat groep\"\n\tdescription=\"\"\n\tmessage=\"\"\n\tclass=\"list_class\"\n\tmultiple=\"false\"\n\tdefault=\"0\"\n\trequired=\"true\"\n\tvalidate=\"\"\n\treadonly=\"\"\n\tdisabled=\"\"\n\tshowon=\"\"\n\tonchange=\"\"\n\textends=\"list\"\n\tbutton=\"true\"\n\ttable=\"#__###component###_beeldmeetlatgroep\"\n\tcomponent=\"com_###component###\"\n\tview=\"beeldmeetlatgroep\"\n\tviews=\"beeldmeetlatgroepen\"\n\tvalue_field=\"meetlatgroep\"\n\tkey_field=\"id\"\n\tprime_php=\"1\"\n\ttype_php_1=\"__.o0=base64=Oo.__Ly8gR2V0IHRoZSB1c2VyIG9iamVjdC4NCgkJJHVzZXIgPSBKRmFjdG9yeTo6Z2V0VXNlcigpOw0KCQkvLyBHZXQgdGhlIGRhdGFic2Ugb2JqZWN0Lg0KCQkkZGIgPSBKRmFjdG9yeTo6Z2V0REJPKCk7DQoJCSRxdWVyeSA9ICRkYi0+Z2V0UXVlcnkodHJ1ZSk7DQoJCSRxdWVyeS0+c2VsZWN0KCRkYi0+cXVvdGVOYW1lKGFycmF5KCdhLiMjI0lEIyMjJywnYS4jIyNURVhUIyMjJyksYXJyYXkoJyMjI0lEIyMjJywnIyMjQ09ERV9URVhUIyMjJykpKTsNCgkJJHF1ZXJ5LT5mcm9tKCRkYi0+cXVvdGVOYW1lKCcjIyNUQUJMRSMjIycsICdhJykpOw0KCQkkcXVlcnktPndoZXJlKCRkYi0+cXVvdGVOYW1lKCdhLnB1Ymxpc2hlZCcpIC4gJyA9IDEnKTsNCgkJJHF1ZXJ5LT5vcmRlcignYS4jIyNURVhUIyMjIEFTQycpOw0KCQkvLyBJbXBsZW1lbnQgVmlldyBMZXZlbCBBY2Nlc3MgKGlmIHNldCBpbiB0YWJsZSkNCgkJaWYgKCEkdXNlci0+YXV0aG9yaXNlKCdjb3JlLm9wdGlvbnMnLCAnW1tbY29tX2NvbXBvbmVudF1dXScpKQ0KCQl7DQoJCQkkY29sdW1ucyA9ICRkYi0+Z2V0VGFibGVDb2x1bW5zKCcjIyNUQUJMRSMjIycpOw0KCQkJaWYoaXNzZXQoJGNvbHVtbnNbJ2FjY2VzcyddKSkNCgkJCXsNCgkJCQkkZ3JvdXBzID0gaW1wbG9kZSgnLCcsICR1c2VyLT5nZXRBdXRob3Jpc2VkVmlld0xldmVscygpKTsNCgkJCQkkcXVlcnktPndoZXJlKCdhLmFjY2VzcyBJTiAoJyAuICRncm91cHMgLiAnKScpOw0KCQkJfQ0KCQl9DQoJCSRkYi0+c2V0UXVlcnkoKHN0cmluZykkcXVlcnkpOw0KCQkkaXRlbXMgPSAkZGItPmxvYWRPYmplY3RMaXN0KCk7DQoJCSRvcHRpb25zID0gYXJyYXkoKTsNCgkJaWYgKCRpdGVtcykNCgkJew0KCQkJJG9wdGlvbnNbXSA9IEpIdG1sOjpfKCdzZWxlY3Qub3B0aW9uJywgJycsICdTZWxlY3QgYW4gb3B0aW9uJyk7DQoJCQlmb3JlYWNoKCRpdGVtcyBhcyAkaXRlbSkNCgkJCXsNCgkJCQkkb3B0aW9uc1tdID0gSkh0bWw6Ol8oJ3NlbGVjdC5vcHRpb24nLCAkaXRlbS0+IyMjSUQjIyMsICRpdGVtLT4jIyNDT0RFX1RFWFQjIyMpOw0KCQkJfQ0KCQl9DQoJCXJldHVybiAkb3B0aW9uczs=\"\n\/>",
+    "datalenght": "10",
+    "javascript_view_footer": "",
+    "css_views": "",
+    "css_view": "",
+    "datadefault_other": "",
+    "datadefault": "",
+    "datalenght_other": "",
+    "javascript_views_footer": "",
+    "add_css_view": 0,
+    "add_css_views": 0,
+    "add_javascript_view_footer": 0,
+    "add_javascript_views_footer": 0,
+    "initiator_on_save_model": "",
+    "guid": "d6fecb30-26a1-4820-b203-6f896df2e23e",
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "dd2e1f4b-f5db-45e8-85fa-efd27bae7b6a",
+            "entity": "fieldtype",
+            "table": "#__componentbuilder_fieldtype",
+            "direction": "out"
+        }
+    ]
+}
