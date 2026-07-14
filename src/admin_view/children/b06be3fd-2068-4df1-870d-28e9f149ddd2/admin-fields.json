@@ -1,0 +1,71 @@
+{
+    "admin_view": "b06be3fd-2068-4df1-870d-28e9f149ddd2",
+    "addfields": {
+        "0": {
+            "field": "37ee6736-87ae-4dec-a6b9-3552f6dfab7c",
+            "list": "1",
+            "order_list": "2",
+            "sort": "1",
+            "search": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "0"
+        },
+        "1": {
+            "field": "b51cf377-a8e6-4976-ad8b-f128c07948c3",
+            "list": "1",
+            "order_list": "1",
+            "title": "1",
+            "sort": "1",
+            "search": "1",
+            "link": "1",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "1",
+            "permission": [
+                "1"
+            ]
+        },
+        "2": {
+            "field": "7c8f42e5-4019-4651-bdeb-7823ef74ef02",
+            "list": "1",
+            "order_list": "3",
+            "tab": "1",
+            "alignment": 1,
+            "order_edit": "3",
+            "permission": [
+                "1"
+            ]
+        }
+    },
+    "@dependencies": [
+        {
+            "key": "guid",
+            "value": "b06be3fd-2068-4df1-870d-28e9f149ddd2",
+            "entity": "admin_view",
+            "table": "#__componentbuilder_admin_view",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "37ee6736-87ae-4dec-a6b9-3552f6dfab7c",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "b51cf377-a8e6-4976-ad8b-f128c07948c3",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        },
+        {
+            "key": "guid",
+            "value": "7c8f42e5-4019-4651-bdeb-7823ef74ef02",
+            "entity": "field",
+            "table": "#__componentbuilder_field",
+            "direction": "out"
+        }
+    ]
+}
