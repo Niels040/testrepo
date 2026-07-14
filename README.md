@@ -58,9 +58,11 @@ This makes them ideal for distributed teams, client-specific forks, and open-sou
 ### Index of Joomla Components
 
 
+ - **Beeldkwaliteit** | [Details](src/joomla_component/ea78e036-e712-47f3-920b-b3e4660a7c76) | [Settings](src/joomla_component/ea78e036-e712-47f3-920b-b3e4660a7c76/item.json) | Beeldkwaliteit
  - **BraGIS Portals** | [Details](src/joomla_component/77d905a1-d7ef-4f05-b293-1409900e9390) | [Settings](src/joomla_component/77d905a1-d7ef-4f05-b293-1409900e9390/item.json) | Portaal voor portalen
  - **Demo J6** | [Details](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d) | [Settings](src/joomla_component/1c20aec5-bf1a-44e7-9deb-d1c920ca591d/item.json) | Demo Component
  - **Nieuwe test component** | [Details](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b) | [Settings](src/joomla_component/863af33c-3ad3-476d-98d6-689b2a0f6d2b/item.json) | korte beschrijving
+ - **Projecten** | [Details](src/joomla_component/4128c30d-ff3a-47dd-b520-712987c6b687) | [Settings](src/joomla_component/4128c30d-ff3a-47dd-b520-712987c6b687/item.json) | Projecten
  - **Test Component** | [Details](src/joomla_component/dfcbc7f7-9635-4aa3-bcd4-6586b4762694) | [Settings](src/joomla_component/dfcbc7f7-9635-4aa3-bcd4-6586b4762694/item.json) | Test Component
  - **nieuw-component-niels** | [Details](src/joomla_component/13295cf6-f8e7-484c-9ee9-46b23c49d731) | [Settings](src/joomla_component/13295cf6-f8e7-484c-9ee9-46b23c49d731/item.json) | short description
 
