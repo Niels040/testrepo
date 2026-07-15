@@ -8,7 +8,7 @@
 <field
 	type="media"
 	name="media"
-	label="Media"
+	label="Logo"
 	description=""
 	directory=""
 	preview="false"
