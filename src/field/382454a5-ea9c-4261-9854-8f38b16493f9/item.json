@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\r\n\ttype=\"media\"\r\n\tname=\"media\"\r\n\tlabel=\"Media\"\r\n\tdescription=\"\"\r\n\tdirectory=\"\"\r\n\tpreview=\"false\"\r\n\tpreview_width=\"\"\r\n\tpreview_height=\"\"\r\n\ttypes=\"\"\r\n\tshowon=\"\"\r\n\tonchange=\"\"\r\n\/>",
+    "xml": "<field\n\ttype=\"media\"\n\tname=\"media\"\n\tlabel=\"Logo\"\n\tdescription=\"\"\n\tdirectory=\"\"\n\tpreview=\"false\"\n\tpreview_width=\"\"\n\tpreview_height=\"\"\n\ttypes=\"\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",
