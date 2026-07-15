@@ -1,5 +1,5 @@
 ### JCB! Joomla Component
-# BraGIS Portals (v1.0.3)
+# BraGIS Portals (v1.0.9)
 ## BraGIS Portals (Bragisportals)
 
 > Portaal voor portalen
@@ -23,7 +23,7 @@ GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html
 
 ### Copyright
 ```text
-Copyright (C) 2015. All Rights Reserved
+Copyright (C) 2026. All Rights Reserved
 ```
 
 > Harness the power of this fully self-contained Joomla Component — complete, customizable, and built to manage data, views, logic, and access control seamlessly through JCB.
