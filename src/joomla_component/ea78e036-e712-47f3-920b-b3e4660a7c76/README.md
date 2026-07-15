@@ -1,5 +1,5 @@
 ### JCB! Joomla Component
-# Beeldkwaliteit (v1.0.26)
+# Beeldkwaliteit (v1.0.27)
 ## Beeldkwaliteit (Beeldkwaliteit)
 
 ### Company Details
