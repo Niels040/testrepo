@@ -24,11 +24,11 @@
     "add_css_admin": 0,
     "dashboard_type": 1,
     "bom": "default.txt",
-    "component_version": "1.0.3",
+    "component_version": "1.0.9",
     "add_css_site": 0,
-    "image": "",
+    "image": "images\/eisenkolb_window_logo.jpg#joomlaImage:\/\/local-images\/eisenkolb_window_logo.jpg?width=201&height=40",
     "dashboard": "",
-    "copyright": "Copyright (C) 2015. All Rights Reserved",
+    "copyright": "Copyright (C) 2026. All Rights Reserved",
     "add_php_preflight_update": 0,
     "preferred_joomla_version": 6,
     "add_php_postflight_update": 0,
@@ -104,6 +104,14 @@
             "entity": "component_site_views",
             "table": "#__componentbuilder_component_site_views",
             "direction": "in"
+        },
+        {
+            "key": "d88709ea-7354-568f-95ac-bf0e1a79f89a.jpg",
+            "pointer": "d88709ea-7354-568f-95ac-bf0e1a79f89a--jpg",
+            "value": "C:\\laragon\\www\\j6\\images\\eisenkolb_window_logo.jpg",
+            "entity": "file",
+            "table": "file_system",
+            "target": "images"
         },
         {
             "key": "4595820b-4dd0-5b4a-935e-82075b516afe.txt",
