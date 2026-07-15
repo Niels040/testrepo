@@ -16,10 +16,6 @@ portals page
 // No direct access
 defined('_JEXEC') or die;
 
-use Joomla\CMS\Factory;
-use Joomla\CMS\Language\Text;
-use Joomla\CMS\Router\Route;
-
 $app  = Factory::getApplication();
 $user = $app->getIdentity();
 
@@ -33,7 +29,56 @@ $canEdit   = $user->authorise('core.edit',   'com_bragisportals');
 // LET OP: bevestig de exacte frontend-view-naam die JCB genereerde voor het formulier
 // (kijk bij Site Views / de gegenereerde menutypes) en pas 'view=portal' zo nodig aan.
 $addUrl = Route::_('index.php?option=com_bragisportals&view=portal&layout=edit');
+
+/**
+ * Rendert een cred-rij met kopieer-link.
+ * Een tekstlink i.p.v. een knop, zodat de rijhoogte gelijk blijft aan de tekst
+ * en label + waarde netjes op één lijn staan.
+ * Lege waarden worden overgeslagen, zodat de aanroep zelf geen if() nodig heeft.
+ *
+ * LET OP: de classes zijn met "bragis-" genamespaced (bragis-copy-link /
+ * bragis-copy-text). Generieke namen als .copy-btn botsen met template-CSS.
+ *
+ * @param string $label  Label links in de rij (loopt door Text::_())
+ * @param string $value  De te tonen én te kopiëren waarde
+ */
+$renderCopyRow = function ($label, $value) {
+    if (empty($value)) {
+        return;
+    }
+
+    // Eén keer escapen: zowel voor de zichtbare tekst als voor het data-attribuut
+    $esc = htmlspecialchars($value);
+    ?>
+    <div class="cred-row">
+      <span class="cred-label"><?php echo Text::_($label); ?></span>
+      <span class="cred-value cred-value-copy">
+        <span class="bragis-copy-text"><?php echo $esc; ?></span>
+        <!-- Kopieer-link: tekst wisselt na een klik ~2s naar "Gekopieerd" -->
+        <a href="#" class="bragis-copy-link" role="button"
+           data-copy="<?php echo $esc; ?>"
+           data-label="<?php echo Text::_('Kopieer'); ?>"
+           data-label-copied="<?php echo Text::_('Gekopieerd'); ?>"><?php echo Text::_('Kopieer'); ?></a>
+      </span>
+    </div>
+    <?php
+};
 ?>
+
+<!-- Zoekbalk + "Portal toevoegen"-knop op één rij -->
+<div class="bragis-search">
+  <input type="text" id="bragis-search-input"
+         placeholder="<?php echo Text::_('Zoeken...'); ?>"
+         aria-label="<?php echo Text::_('Zoeken'); ?>" />
+
+  <!-- "Portal toevoegen"-knop (alleen zichtbaar met rechten) -->
+  <?php if ($canCreate) : ?>
+    <a class="bragis-add-btn" href="<?php echo $addUrl; ?>">
+      <span>&#43;</span>
+      <?php echo Text::_('Portal toevoegen'); ?>
+    </a>
+  <?php endif; ?>
+</div>
 
 <div class="bragis-grid">
 <?php foreach ($this->items as $item) :
@@ -43,15 +88,26 @@ $addUrl = Route::_('index.php?option=com_bragisportals&view=portal&layout=edit')
     $modalId = 'portal-modal-' . (int) $item->id;
     $editUrl = Route::_('index.php?option=com_bragisportals&view=portal&layout=edit&id=' . (int) $item->id);
 
-    // Is er iets zinnigs om in de modal te tonen? (extra info of inloggegevens)
-    $hasInfo = (!empty($item->extra_info) || !empty($creds));
+    // SSH-gegevens aanwezig?
+    $hasSsh = (!empty($item->ssh_user) || !empty($item->ssh_pass) || !empty($item->ssh_ip));
+
+    // Database-gegevens aanwezig?
+    $hasDb = (!empty($item->db_joomla_pass) || !empty($item->db_joomla_user) || !empty($item->db_name)
+              || !empty($item->db_root_pass) || !empty($item->db_root_name) || !empty($item->db_sh_name));
+
+    // Is er iets zinnigs om in de modal te tonen? (extra info, inloggegevens, SSH of database)
+    $hasInfo = (!empty($item->extra_info) || !empty($creds) || $hasSsh || $hasDb);
 
     // Info-knop + modal alleen voor ingelogde gebruikers, en alleen als er iets te zien is
     // (of als de gebruiker mag bewerken, zodat de Bewerken-knop bereikbaar blijft)
     $showInfo = ($user->id && ($hasInfo || $canEdit));
+
+    // Zoekterm-index voor dit portal: alleen de titel, lowercase.
+    // Wordt in een data-attribuut gezet zodat de JS-filter erop kan matchen.
+    $searchIndex = strtolower($item->title);
 ?>
     <!-- Portal card: knoppen staan direct op de kaart, geen klik-actie meer op de kaart zelf -->
-    <div class="card">
+    <div class="card" data-search="<?php echo htmlspecialchars($searchIndex); ?>">
        <div class="card-image">
             <?php
             // JCB Media-veld: waarde kan "pad#joomlaImage://..." zijn — pak alleen het pad
@@ -110,9 +166,85 @@ $addUrl = Route::_('index.php?option=com_bragisportals&view=portal&layout=edit')
           </div>
           <div class="modal-body">
 
-            <!-- Extra informatie -->
+            <!-- SSH-gegevens — alleen voor ingelogde gebruikers -->
+            <?php if ($user->id && $hasSsh) : ?>
+              <div class="ssh-info cred-list">
+                <?php if (!empty($item->ssh_ip)) : ?>
+                  <div class="cred-row">
+                    <span class="cred-label"><?php echo Text::_('SSH IP'); ?></span>
+                    <span class="cred-value"><?php echo htmlspecialchars($item->ssh_ip); ?></span>
+                  </div>
+                <?php endif; ?>
+                <?php if (!empty($item->ssh_user)) : ?>
+                  <div class="cred-row">
+                    <span class="cred-label"><?php echo Text::_('SSH gebruiker'); ?></span>
+                    <span class="cred-value"><?php echo htmlspecialchars($item->ssh_user); ?></span>
+                  </div>
+                <?php endif; ?>
+                <?php if (!empty($item->ssh_pass)) : ?>
+                  <div class="cred-row">
+                    <span class="cred-label"><?php echo Text::_('SSH wachtwoord'); ?></span>
+                    <span class="cred-value"><?php echo htmlspecialchars($item->ssh_pass); ?></span>
+                  </div>
+                <?php endif; ?>
+
+                <!-- SSH command met kopieer-link -->
+                <?php $renderCopyRow('SSH command', $item->ssh_command); ?>
+
+                <!-- SSH copy command met kopieer-link -->
+                <?php if (!empty($item->ssh_user) && !empty($item->ssh_ip)) : ?>
+                    <?php $renderCopyRow('SSH copy-id', 'ssh-copy-id ' . $item->ssh_user . '@' . $item->ssh_ip); ?>
+                <?php endif; ?>
+              </div>
+            <?php endif; ?>
+
+            <!-- Database-gegevens — alleen voor ingelogde gebruikers -->
+            <?php if ($user->id && $hasDb) : ?>
+
+              <div class="db-info cred-list">
+
+<?php if (!empty($item->db_url) || !empty($item->ssh_ip)) : ?>
+                  <?php
+                    // db_url heeft voorrang; anders terugvallen op ssh_ip:8924
+                    if (!empty($item->db_url)) {
+                        $dbUrl = $item->db_url;
+                        // Voeg schema toe als het ontbreekt, anders wordt het een relatieve link
+                        if (!preg_match('~^https?://~i', $dbUrl)) {
+                            $dbUrl = 'http://' . $dbUrl;
+                        }
+                        $pmaUrl = htmlspecialchars($dbUrl);
+                    } else {
+                        $pmaUrl = 'http://' . htmlspecialchars($item->ssh_ip) . ':8924';
+                    }
+                  ?>
+                  <div class="cred-row">
+                    <span class="cred-label"><?php echo Text::_('phpMyAdmin'); ?></span>
+                    <span class="cred-value"><a href="<?php echo $pmaUrl; ?>" target="_blank" rel="noopener"><?php echo $pmaUrl; ?></a></span>
+                  </div>
+                <?php endif; ?>
+
+                <?php if (!empty($item->db_sh_name)) : ?>
+                  <div class="cred-row">
+                    <span class="cred-label">Serverhost</span>
+                    <span class="cred-value"><?php echo htmlspecialchars($item->db_sh_name); ?></span>
+                  </div>
+                <?php endif; ?>
+
+                <!-- Database-rijen met kopieer-link (lege waarden worden overgeslagen) -->
+                <?php $renderCopyRow('Root gebruiker',    $item->db_root_name); ?>
+                <?php $renderCopyRow('Root wachtwoord',   $item->db_root_pass); ?>
+                <?php $renderCopyRow('Databasenaam',      $item->db_name); ?>
+                <?php $renderCopyRow('Joomla gebruiker',  $item->db_joomla_user); ?>
+                <?php $renderCopyRow('Joomla wachtwoord', $item->db_joomla_pass); ?>
+
+              </div>
+            <?php endif; ?>
+
+                        <!-- Extra informatie -->
             <?php if (!empty($item->extra_info)) : ?>
               <div class="extra-info">
+<span class="cred-label"><?php echo Text::_('Extra Info:'); ?></span>
+<br/>
                 <?php echo nl2br(htmlspecialchars($item->extra_info)); ?>
               </div>
             <?php endif; ?>
@@ -142,14 +274,11 @@ $addUrl = Route::_('index.php?option=com_bragisportals&view=portal&layout=edit')
     </div>
     <?php endif; ?>
 <?php endforeach; ?>
+</div>
 
-    <!-- "Portal toevoegen"-tegel (alleen zichtbaar met rechten) -->
-    <?php if ($canCreate) : ?>
-      <a class="card-add" href="<?php echo $addUrl; ?>">
-        <span>&#43;</span>
-        <p><?php echo Text::_('Portal toevoegen'); ?></p>
-      </a>
-    <?php endif; ?>
+<!-- Melding wanneer de zoekopdracht geen resultaten geeft (standaard verborgen) -->
+<div class="bragis-noresults" id="bragis-noresults" hidden>
+  <?php echo Text::_('Geen portals gevonden.'); ?>
 </div>
 ```
 
