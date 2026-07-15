@@ -8,7 +8,7 @@
     "on_get_model_field": null,
     "on_save_model_field": null,
     "initiator_on_get_model": "",
-    "xml": "<field\r\n\ttype=\"textarea\"\r\n\tname=\"extra_info\"\r\n\tlabel=\"Extra Info\"\r\n\trows=\"10\"\r\n\tcols=\"5\"\r\n\tdefault=\".....\"\r\n\tdescription=\"Text Area\"\r\n\tmessage=\"\"\r\n\tclass=\"text_area\"\r\n\tfilter=\"raw\"\r\n\thint=\"\"\r\n\trequired=\"false\"\r\n\tvalidate=\"\"\r\n\treadonly=\"false\"\r\n\tdisabled=\"false\"\r\n\tshowon=\"\"\r\n\tonchange=\"\"\r\n\/>",
+    "xml": "<field\n\ttype=\"textarea\"\n\tname=\"extra_info\"\n\tlabel=\"Extra Info\"\n\trows=\"10\"\n\tcols=\"5\"\n\tdefault=\"\"\n\tdescription=\"Text Area\"\n\tmessage=\"\"\n\tclass=\"text_area\"\n\tfilter=\"raw\"\n\thint=\"....\"\n\trequired=\"false\"\n\tvalidate=\"\"\n\treadonly=\"false\"\n\tdisabled=\"false\"\n\tshowon=\"\"\n\tonchange=\"\"\n\/>",
     "datalenght": "",
     "javascript_view_footer": "",
     "css_views": "",
