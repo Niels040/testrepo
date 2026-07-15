@@ -7,7 +7,7 @@
     "php_getlistquery": "",
     "php_getitems": "",
     "ajax_input": null,
-    "source": 0,
+    "source": 1,
     "icon": "",
     "php_batchmove": "",
     "add_fadein": 1,
@@ -24,7 +24,17 @@
     "addpermissions": null,
     "php_getitem": "",
     "php_getitems_after_all": "",
-    "addtabs": null,
+    "addtabs": {
+        "addtabs0": {
+            "name": "Algemeen"
+        },
+        "addtabs1": {
+            "name": "SFTP\/ SSH"
+        },
+        "addtabs2": {
+            "name": "Database"
+        }
+    },
     "php_getform": "",
     "php_save": "",
     "php_allowadd": "",
@@ -54,9 +64,9 @@
     "add_php_save": 0,
     "javascript_view_file": "",
     "add_php_postsavehook": 0,
-    "add_javascript_view_footer": 0,
+    "add_javascript_view_footer": 1,
     "add_php_allowadd": 0,
-    "javascript_view_footer": "",
+    "javascript_view_footer": "document.addEventListener('DOMContentLoaded', function () {\r\n    var userEl = document.getElementById('jform_ssh_user');\r\n    var ipEl   = document.getElementById('jform_ssh_ip');\r\n    var cmdEl  = document.getElementById('jform_ssh_command');\r\n    \/\/ Veiligheidscheck: alleen doorgaan als alle velden bestaan\r\n    if (!userEl || !ipEl || !cmdEl) {\r\n        return;\r\n    }\r\n    \/\/ Bouw het commando volgens het standaard-sjabloon\r\n    function template(u, ip) {\r\n        \/\/ Pas dit sjabloon aan naar wens (bijv. met -p poort)\r\n        return 'ssh ' + u + '@' + ip;\r\n    }\r\n    \/\/ Ontgrendeld tenzij de opgeslagen waarde afwijkt van het sjabloon\r\n    \/\/ (dan is het handmatig aangepast en laten we het met rust).\r\n    var current = cmdEl.value.trim();\r\n    var expected = template(userEl.value.trim(), ipEl.value.trim());\r\n    var manuallyEdited = (current !== '' && current !== expected);\r\n    \/\/ Zodra de gebruiker zelf in het commando-veld typt, stoppen we met auto-vullen\r\n    cmdEl.addEventListener('input', function () {\r\n        manuallyEdited = true;\r\n    });\r\n    function buildCommand() {\r\n        \/\/ Niet auto-vullen als de gebruiker het veld al zelf heeft aangeraakt\r\n        if (manuallyEdited) {\r\n            return;\r\n        }\r\n        var u  = userEl.value.trim();\r\n        var ip = ipEl.value.trim();\r\n        if (u && ip) {\r\n            cmdEl.value = template(u, ip);\r\n        }\r\n    }\r\n    userEl.addEventListener('input', buildCommand);\r\n    ipEl.addEventListener('input', buildCommand);\r\n});",
     "add_php_allowedit": 0,
     "add_javascript_views_file": 0,
     "add_php_before_cancel": 0,
