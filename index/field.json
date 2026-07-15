@@ -1012,5 +1012,71 @@
         "path": "src\/field\/7c8f42e5-4019-4651-bdeb-7823ef74ef02",
         "settings": "src\/field\/7c8f42e5-4019-4651-bdeb-7823ef74ef02\/item.json",
         "guid": "7c8f42e5-4019-4651-bdeb-7823ef74ef02"
+    },
+    "3c019989-4a7f-40f2-8d3b-842f10b4f01a": {
+        "name": "db_sh_name",
+        "path": "src\/field\/3c019989-4a7f-40f2-8d3b-842f10b4f01a",
+        "settings": "src\/field\/3c019989-4a7f-40f2-8d3b-842f10b4f01a\/item.json",
+        "guid": "3c019989-4a7f-40f2-8d3b-842f10b4f01a"
+    },
+    "44eb6c0d-5beb-4e66-8bf3-1e403d251c84": {
+        "name": "db_url",
+        "path": "src\/field\/44eb6c0d-5beb-4e66-8bf3-1e403d251c84",
+        "settings": "src\/field\/44eb6c0d-5beb-4e66-8bf3-1e403d251c84\/item.json",
+        "guid": "44eb6c0d-5beb-4e66-8bf3-1e403d251c84"
+    },
+    "6f0526bb-80a7-44d8-bcb2-bf98b65432b9": {
+        "name": "db_joomla_pass",
+        "path": "src\/field\/6f0526bb-80a7-44d8-bcb2-bf98b65432b9",
+        "settings": "src\/field\/6f0526bb-80a7-44d8-bcb2-bf98b65432b9\/item.json",
+        "guid": "6f0526bb-80a7-44d8-bcb2-bf98b65432b9"
+    },
+    "a31778e3-5da2-4e6f-a29e-7b3e0c1be4f7": {
+        "name": "ssh_command",
+        "path": "src\/field\/a31778e3-5da2-4e6f-a29e-7b3e0c1be4f7",
+        "settings": "src\/field\/a31778e3-5da2-4e6f-a29e-7b3e0c1be4f7\/item.json",
+        "guid": "a31778e3-5da2-4e6f-a29e-7b3e0c1be4f7"
+    },
+    "a8ebaf15-af2d-4f41-9755-9a3e187ae33b": {
+        "name": "db_name",
+        "path": "src\/field\/a8ebaf15-af2d-4f41-9755-9a3e187ae33b",
+        "settings": "src\/field\/a8ebaf15-af2d-4f41-9755-9a3e187ae33b\/item.json",
+        "guid": "a8ebaf15-af2d-4f41-9755-9a3e187ae33b"
+    },
+    "cd43ab64-69de-4f48-94e6-8a9657489407": {
+        "name": "ssh_user",
+        "path": "src\/field\/cd43ab64-69de-4f48-94e6-8a9657489407",
+        "settings": "src\/field\/cd43ab64-69de-4f48-94e6-8a9657489407\/item.json",
+        "guid": "cd43ab64-69de-4f48-94e6-8a9657489407"
+    },
+    "d52eaff8-6adb-4334-9fc5-3e3f32e4d558": {
+        "name": "db_root_name",
+        "path": "src\/field\/d52eaff8-6adb-4334-9fc5-3e3f32e4d558",
+        "settings": "src\/field\/d52eaff8-6adb-4334-9fc5-3e3f32e4d558\/item.json",
+        "guid": "d52eaff8-6adb-4334-9fc5-3e3f32e4d558"
+    },
+    "d6c9164d-d4f4-4c13-b5b6-23d424d24fb9": {
+        "name": "db_joomla_user",
+        "path": "src\/field\/d6c9164d-d4f4-4c13-b5b6-23d424d24fb9",
+        "settings": "src\/field\/d6c9164d-d4f4-4c13-b5b6-23d424d24fb9\/item.json",
+        "guid": "d6c9164d-d4f4-4c13-b5b6-23d424d24fb9"
+    },
+    "e113aa84-1f9d-473e-aef8-d98c814d9106": {
+        "name": "ssh_pass",
+        "path": "src\/field\/e113aa84-1f9d-473e-aef8-d98c814d9106",
+        "settings": "src\/field\/e113aa84-1f9d-473e-aef8-d98c814d9106\/item.json",
+        "guid": "e113aa84-1f9d-473e-aef8-d98c814d9106"
+    },
+    "e62bc7fd-da35-4a42-81da-cec9fcdb3583": {
+        "name": "db_root_pass",
+        "path": "src\/field\/e62bc7fd-da35-4a42-81da-cec9fcdb3583",
+        "settings": "src\/field\/e62bc7fd-da35-4a42-81da-cec9fcdb3583\/item.json",
+        "guid": "e62bc7fd-da35-4a42-81da-cec9fcdb3583"
+    },
+    "ed2027e7-23ad-4d68-9d9e-fb03b5562a84": {
+        "name": "ssh_ip",
+        "path": "src\/field\/ed2027e7-23ad-4d68-9d9e-fb03b5562a84",
+        "settings": "src\/field\/ed2027e7-23ad-4d68-9d9e-fb03b5562a84\/item.json",
+        "guid": "ed2027e7-23ad-4d68-9d9e-fb03b5562a84"
     }
 }
