@@ -24,7 +24,7 @@
     "add_css_admin": 0,
     "dashboard_type": 1,
     "bom": "default.txt",
-    "component_version": "1.0.26",
+    "component_version": "1.0.27",
     "add_css_site": 0,
     "image": "images\/bragis300.png",
     "dashboard": "",
@@ -40,7 +40,7 @@
     "git_folder_path": "",
     "changelog_server_url": "",
     "add_namespace_prefix": "",
-    "namespace_prefix": "",
+    "namespace_prefix": "JCB",
     "javascript": "",
     "css_admin": "",
     "add_menu_prefix": "",
@@ -54,7 +54,7 @@
     "addcontributors": null,
     "php_method_uninstall": "",
     "emptycontributors": 0,
-    "php_method_install": null,
+    "php_method_install": "",
     "number": 4,
     "sql": "",
     "sql_uninstall": "",
@@ -84,9 +84,12 @@
     "guid": "ea78e036-e712-47f3-920b-b3e4660a7c76",
     "add_javascript": 0,
     "name": "Beeldkwaliteit",
-    "metakey": null,
-    "metadesc": null,
-    "metadata": null,
+    "metakey": "",
+    "metadesc": "",
+    "metadata": {
+        "robots": "",
+        "rights": ""
+    },
     "@dependencies": [
         {
             "key": "joomla_component",
